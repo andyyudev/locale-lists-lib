@@ -28,8 +28,6 @@ Designed for modern web development, this package provides the most current and 
 npm install locale-lists-lib
 ```
 
-<br />
-
 # Usage
 
 ### How To Import
@@ -161,8 +159,6 @@ Multiple records will return array of objects
   withCountries: true,
 } // ts: ITimezone
 ```
-
-<br />
 
 # API Reference
 
@@ -389,8 +385,6 @@ const continentOC = getContinent("OC", ["name"]);
 }
 ```
 
-<br />
-
 ## `getAllCountries([keys])`
 
 ### Parameters
@@ -595,8 +589,6 @@ const countryKR = getCountry("KR", ["name", "emoji"]);
   emoji: "🇰🇷".
 }
 ```
-
-<br />
 
 ## `getAllCurrencies([keys])`
 
@@ -805,8 +797,6 @@ const currencyJPY = getCurrency("JPY", ["name", "symbol"]);
 }
 ```
 
-<br />
-
 ## `getAllLanguages([keys])`
 
 ### Parameters
@@ -1013,8 +1003,6 @@ const languageRO = getLanguage("ro", ["name", "native"]);
   native: "Română",
 }
 ```
-
-<br />
 
 ## `getAllTimezones([keys])`
 
@@ -1246,8 +1234,6 @@ const timezoneAtlanticBermuda = getTimezone("Atlantic/Bermuda", ["name", "label"
   label: "Atlantic/Bermuda (GMT-04:00)",
 }
 ```
-
-<br />
 
 # Licensing
 
