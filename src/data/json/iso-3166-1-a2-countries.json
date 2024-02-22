@@ -1,0 +1,3752 @@
+{
+  "AD": {
+    "name": "Andorra",
+    "native": "Andorra",
+    "capital": "Andorra la Vella",
+    "continents": ["EU"],
+    "callingCodes": [376],
+    "currencies": ["EUR"],
+    "languages": ["ca"],
+    "timezones": ["Europe/Andorra"],
+    "emoji": "🇦🇩",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ad.png",
+      "svg": "https://flagcdn.com/ad.svg"
+    }
+  },
+  "AE": {
+    "name": "United Arab Emirates",
+    "native": "دولة الإمارات العربية المتحدة",
+    "capital": "Abu Dhabi",
+    "continents": ["AS"],
+    "callingCodes": [971],
+    "currencies": ["AED"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Dubai"],
+    "emoji": "🇦🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ae.png",
+      "svg": "https://flagcdn.com/ae.svg"
+    }
+  },
+  "AF": {
+    "name": "Afghanistan",
+    "native": "افغانستان",
+    "capital": "Kabul",
+    "continents": ["AS"],
+    "callingCodes": [93],
+    "currencies": ["AFN"],
+    "languages": ["ps", "uz", "tk"],
+    "timezones": ["Asia/Kabul"],
+    "emoji": "🇦🇫",
+    "flag": {
+      "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
+      "svg": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"
+    }
+  },
+  "AG": {
+    "name": "Antigua and Barbuda",
+    "native": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "continents": ["NA"],
+    "callingCodes": [1268],
+    "currencies": ["XCD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇦🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ag.png",
+      "svg": "https://flagcdn.com/ag.svg"
+    }
+  },
+  "AI": {
+    "name": "Anguilla",
+    "native": "Anguilla",
+    "capital": "The Valley",
+    "continents": ["NA"],
+    "callingCodes": [1264],
+    "currencies": ["XCD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇦🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ai.png",
+      "svg": "https://flagcdn.com/ai.svg"
+    }
+  },
+  "AL": {
+    "name": "Albania",
+    "native": "Shqipëria",
+    "capital": "Tirana",
+    "continents": ["EU"],
+    "callingCodes": [355],
+    "currencies": ["ALL"],
+    "languages": ["sq"],
+    "timezones": ["Europe/Tirane"],
+    "emoji": "🇦🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/al.png",
+      "svg": "https://flagcdn.com/al.svg"
+    }
+  },
+  "AM": {
+    "name": "Armenia",
+    "native": "Հայաստան",
+    "capital": "Yerevan",
+    "continents": ["AS"],
+    "callingCodes": [374],
+    "currencies": ["AMD"],
+    "languages": ["hy", "ru"],
+    "timezones": ["Asia/Yerevan"],
+    "emoji": "🇦🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/am.png",
+      "svg": "https://flagcdn.com/am.svg"
+    }
+  },
+  "AO": {
+    "name": "Angola",
+    "native": "Angola",
+    "capital": "Luanda",
+    "continents": ["AF"],
+    "callingCodes": [244],
+    "currencies": ["AOA"],
+    "languages": ["pt"],
+    "timezones": ["Africa/Lagos"],
+    "emoji": "🇦🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ao.png",
+      "svg": "https://flagcdn.com/ao.svg"
+    }
+  },
+  "AQ": {
+    "name": "Antarctica",
+    "native": "Antarctica",
+    "capital": "",
+    "continents": ["AN"],
+    "callingCodes": [672],
+    "currencies": [],
+    "languages": [],
+    "timezones": ["Antarctica/Casey", "Antarctica/Davis", "Antarctica/Mawson", "Antarctica/Palmer", "Antarctica/Rothera", "Antarctica/Troll", "Asia/Riyadh", "Asia/Urumqi", "Pacific/Auckland", "Pacific/Port_Moresby"],
+    "emoji": "🇦🇶",
+    "flag": {
+      "png": "https://flagcdn.com/w320/aq.png",
+      "svg": "https://flagcdn.com/aq.svg"
+    }
+  },
+  "AR": {
+    "name": "Argentina",
+    "native": "Argentina",
+    "capital": "Buenos Aires",
+    "continents": ["SA"],
+    "callingCodes": [54],
+    "currencies": ["ARS"],
+    "languages": ["es", "gn"],
+    "timezones": ["America/Argentina/Buenos_Aires", "America/Argentina/Catamarca", "America/Argentina/Cordoba", "America/Argentina/Jujuy", "America/Argentina/La_Rioja", "America/Argentina/Mendoza", "America/Argentina/Rio_Gallegos", "America/Argentina/Salta", "America/Argentina/San_Juan", "America/Argentina/San_Luis", "America/Argentina/Tucuman", "America/Argentina/Ushuaia"],
+    "emoji": "🇦🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ar.png",
+      "svg": "https://flagcdn.com/ar.svg"
+    }
+  },
+  "AS": {
+    "name": "American Samoa",
+    "native": "American Samoa",
+    "capital": "Pago Pago",
+    "continents": ["OC"],
+    "callingCodes": [1684],
+    "currencies": ["USD"],
+    "languages": ["en", "sm"],
+    "timezones": ["Pacific/Pago_Pago"],
+    "emoji": "🇦🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/as.png",
+      "svg": "https://flagcdn.com/as.svg"
+    }
+  },
+  "AT": {
+    "name": "Austria",
+    "native": "Österreich",
+    "capital": "Vienna",
+    "continents": ["EU"],
+    "callingCodes": [43],
+    "currencies": ["EUR"],
+    "languages": ["de"],
+    "timezones": ["Europe/Vienna"],
+    "emoji": "🇦🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/at.png",
+      "svg": "https://flagcdn.com/at.svg"
+    }
+  },
+  "AU": {
+    "name": "Australia",
+    "native": "Australia",
+    "capital": "Canberra",
+    "continents": ["OC"],
+    "callingCodes": [61],
+    "currencies": ["AUD"],
+    "languages": ["en"],
+    "timezones": ["Antarctica/Macquarie", "Australia/Adelaide", "Australia/Brisbane", "Australia/Broken_Hill", "Australia/Darwin", "Australia/Eucla", "Australia/Hobart", "Australia/Lindeman", "Australia/Lord_Howe", "Australia/Melbourne", "Australia/Perth", "Australia/Sydney"],
+    "emoji": "🇦🇺",
+    "flag": {
+      "png": "https://flagcdn.com/w320/au.png",
+      "svg": "https://flagcdn.com/au.svg"
+    }
+  },
+  "AW": {
+    "name": "Aruba",
+    "native": "Aruba",
+    "capital": "Oranjestad",
+    "continents": ["NA"],
+    "callingCodes": [297],
+    "currencies": ["AWG"],
+    "languages": ["nl", "pa"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇦🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/aw.png",
+      "svg": "https://flagcdn.com/aw.svg"
+    }
+  },
+  "AX": {
+    "name": "Aland",
+    "native": "Åland",
+    "capital": "Mariehamn",
+    "continents": ["EU"],
+    "callingCodes": [358],
+    "currencies": ["EUR"],
+    "languages": ["sv"],
+    "timezones": ["Europe/Helsinki"],
+    "emoji": "",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ax.png",
+      "svg": "https://flagcdn.com/ax.svg"
+    }
+  },
+  "AZ": {
+    "name": "Azerbaijan",
+    "native": "Azərbaycan",
+    "capital": "Baku",
+    "continents": ["AS", "EU"],
+    "callingCodes": [994],
+    "currencies": ["AZN"],
+    "languages": ["az"],
+    "timezones": ["Asia/Baku"],
+    "emoji": "🇦🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/az.png",
+      "svg": "https://flagcdn.com/az.svg"
+    }
+  },
+  "BA": {
+    "name": "Bosnia and Herzegovina",
+    "native": "Bosna i Hercegovina",
+    "capital": "Sarajevo",
+    "continents": ["EU"],
+    "callingCodes": [387],
+    "currencies": ["BAM"],
+    "languages": ["bs", "hr", "sr"],
+    "timezones": ["Europe/Belgrade"],
+    "emoji": "🇧🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ba.png",
+      "svg": "https://flagcdn.com/ba.svg"
+    }
+  },
+  "BB": {
+    "name": "Barbados",
+    "native": "Barbados",
+    "capital": "Bridgetown",
+    "continents": ["NA"],
+    "callingCodes": [1246],
+    "currencies": ["BBD"],
+    "languages": ["en"],
+    "timezones": ["America/Barbados"],
+    "emoji": "🇧🇧",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bb.png",
+      "svg": "https://flagcdn.com/bb.svg"
+    }
+  },
+  "BD": {
+    "name": "Bangladesh",
+    "native": "Bangladesh",
+    "capital": "Dhaka",
+    "continents": ["AS"],
+    "callingCodes": [880],
+    "currencies": ["BDT"],
+    "languages": ["bn"],
+    "timezones": ["Asia/Dhaka"],
+    "emoji": "🇧🇩",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bd.png",
+      "svg": "https://flagcdn.com/bd.svg"
+    }
+  },
+  "BE": {
+    "name": "Belgium",
+    "native": "België",
+    "capital": "Brussels",
+    "continents": ["EU"],
+    "callingCodes": [32],
+    "currencies": ["EUR"],
+    "languages": ["nl", "fr", "de"],
+    "timezones": ["Europe/Brussels"],
+    "emoji": "🇧🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/be.png",
+      "svg": "https://flagcdn.com/be.svg"
+    }
+  },
+  "BF": {
+    "name": "Burkina Faso",
+    "native": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "continents": ["AF"],
+    "callingCodes": [226],
+    "currencies": ["XOF"],
+    "languages": ["fr", "ff"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇧🇫",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bf.png",
+      "svg": "https://flagcdn.com/bf.svg"
+    }
+  },
+  "BG": {
+    "name": "Bulgaria",
+    "native": "България",
+    "capital": "Sofia",
+    "continents": ["EU"],
+    "callingCodes": [359],
+    "currencies": ["BGN"],
+    "languages": ["bg"],
+    "timezones": ["Europe/Sofia"],
+    "emoji": "🇧🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bg.png",
+      "svg": "https://flagcdn.com/bg.svg"
+    }
+  },
+  "BH": {
+    "name": "Bahrain",
+    "native": "‏البحرين",
+    "capital": "Manama",
+    "continents": ["AS"],
+    "callingCodes": [973],
+    "currencies": ["BHD"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Qatar"],
+    "emoji": "🇧🇭",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bh.png",
+      "svg": "https://flagcdn.com/bh.svg"
+    }
+  },
+  "BI": {
+    "name": "Burundi",
+    "native": "Burundi",
+    "capital": "Bujumbura",
+    "continents": ["AF"],
+    "callingCodes": [257],
+    "currencies": ["BIF"],
+    "languages": ["fr", "rn"],
+    "timezones": ["Africa/Maputo"],
+    "emoji": "🇧🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bi.png",
+      "svg": "https://flagcdn.com/bi.svg"
+    }
+  },
+  "BJ": {
+    "name": "Benin",
+    "native": "Bénin",
+    "capital": "Porto-Novo",
+    "continents": ["AF"],
+    "callingCodes": [229],
+    "currencies": ["XOF"],
+    "languages": ["fr"],
+    "timezones": ["Africa/Lagos"],
+    "emoji": "🇧🇯",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bj.png",
+      "svg": "https://flagcdn.com/bj.svg"
+    }
+  },
+  "BL": {
+    "name": "Saint Barthelemy",
+    "native": "Saint-Barthélemy",
+    "capital": "Gustavia",
+    "continents": ["NA"],
+    "callingCodes": [590],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇧🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bl.png",
+      "svg": "https://flagcdn.com/bl.svg"
+    }
+  },
+  "BM": {
+    "name": "Bermuda",
+    "native": "Bermuda",
+    "capital": "Hamilton",
+    "continents": ["NA"],
+    "callingCodes": [1441],
+    "currencies": ["BMD"],
+    "languages": ["en"],
+    "timezones": ["Atlantic/Bermuda"],
+    "emoji": "🇧🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bm.png",
+      "svg": "https://flagcdn.com/bm.svg"
+    }
+  },
+  "BN": {
+    "name": "Brunei",
+    "native": "Negara Brunei Darussalam",
+    "capital": "Bandar Seri Begawan",
+    "continents": ["AS"],
+    "callingCodes": [673],
+    "currencies": ["BND"],
+    "languages": ["ms"],
+    "timezones": ["Asia/Kuching"],
+    "emoji": "🇧🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bn.png",
+      "svg": "https://flagcdn.com/bn.svg"
+    }
+  },
+  "BO": {
+    "name": "Bolivia",
+    "native": "Bolivia",
+    "capital": "Sucre",
+    "continents": ["SA"],
+    "callingCodes": [591],
+    "currencies": ["BOB"],
+    "languages": ["es", "ay", "qu"],
+    "timezones": ["America/La_Paz"],
+    "emoji": "🇧🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bo.png",
+      "svg": "https://flagcdn.com/bo.svg"
+    }
+  },
+  "BQ": {
+    "name": "Bonaire",
+    "native": "Bonaire",
+    "capital": "Kralendijk",
+    "continents": ["NA"],
+    "callingCodes": [5997],
+    "currencies": ["USD"],
+    "languages": ["nl"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇧🇶",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bq.png",
+      "svg": "https://flagcdn.com/bq.svg"
+    }
+  },
+  "BR": {
+    "name": "Brazil",
+    "native": "Brasil",
+    "capital": "Brasília",
+    "continents": ["SA"],
+    "callingCodes": [55],
+    "currencies": ["BRL"],
+    "languages": ["pt"],
+    "timezones": ["America/Araguaina", "America/Bahia", "America/Belem", "America/Boa_Vista", "America/Campo_Grande", "America/Cuiaba", "America/Eirunepe", "America/Fortaleza", "America/Maceio", "America/Manaus", "America/Noronha", "America/Porto_Velho", "America/Recife", "America/Rio_Branco", "America/Santarem", "America/Sao_Paulo"],
+    "emoji": "🇧🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/br.png",
+      "svg": "https://flagcdn.com/br.svg"
+    }
+  },
+  "BS": {
+    "name": "Bahamas",
+    "native": "Bahamas",
+    "capital": "Nassau",
+    "continents": ["NA"],
+    "callingCodes": [1242],
+    "currencies": ["BSD"],
+    "languages": ["en"],
+    "timezones": ["America/Toronto"],
+    "emoji": "🇧🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bs.png",
+      "svg": "https://flagcdn.com/bs.svg"
+    }
+  },
+  "BT": {
+    "name": "Bhutan",
+    "native": "ʼbrug-yul",
+    "capital": "Thimphu",
+    "continents": ["AS"],
+    "callingCodes": [975],
+    "currencies": ["BTN", "INR"],
+    "languages": ["dz"],
+    "timezones": ["Asia/Thimphu"],
+    "emoji": "🇧🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bt.png",
+      "svg": "https://flagcdn.com/bt.svg"
+    }
+  },
+  "BV": {
+    "name": "Bouvet Island",
+    "native": "Bouvetøya",
+    "capital": "",
+    "continents": ["AN"],
+    "callingCodes": [47],
+    "currencies": ["NOK"],
+    "languages": ["no", "nb", "nn"],
+    "timezones": [],
+    "emoji": "🇧🇻",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bv.png",
+      "svg": "https://flagcdn.com/bv.svg"
+    }
+  },
+  "BW": {
+    "name": "Botswana",
+    "native": "Botswana",
+    "capital": "Gaborone",
+    "continents": ["AF"],
+    "callingCodes": [267],
+    "currencies": ["BWP"],
+    "languages": ["en", "tn"],
+    "timezones": ["Africa/Maputo"],
+    "emoji": "🇧🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bw.png",
+      "svg": "https://flagcdn.com/bw.svg"
+    }
+  },
+  "BY": {
+    "name": "Belarus",
+    "native": "Белару́сь",
+    "capital": "Minsk",
+    "continents": ["EU"],
+    "callingCodes": [375],
+    "currencies": ["BYN"],
+    "languages": ["be", "ru"],
+    "timezones": ["Europe/Minsk"],
+    "emoji": "🇧🇾",
+    "flag": {
+      "png": "https://flagcdn.com/w320/by.png",
+      "svg": "https://flagcdn.com/by.svg"
+    }
+  },
+  "BZ": {
+    "name": "Belize",
+    "native": "Belize",
+    "capital": "Belmopan",
+    "continents": ["NA"],
+    "callingCodes": [501],
+    "currencies": ["BZD"],
+    "languages": ["en", "es"],
+    "timezones": ["America/Belize"],
+    "emoji": "🇧🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/bz.png",
+      "svg": "https://flagcdn.com/bz.svg"
+    }
+  },
+  "CA": {
+    "name": "Canada",
+    "native": "Canada",
+    "capital": "Ottawa",
+    "continents": ["NA"],
+    "callingCodes": [1],
+    "currencies": ["CAD"],
+    "languages": ["en", "fr"],
+    "timezones": ["America/Cambridge_Bay", "America/Dawson", "America/Dawson_Creek", "America/Edmonton", "America/Fort_Nelson", "America/Glace_Bay", "America/Goose_Bay", "America/Halifax", "America/Inuvik", "America/Iqaluit", "America/Moncton", "America/Panama", "America/Phoenix", "America/Puerto_Rico", "America/Rankin_Inlet", "America/Regina", "America/Resolute", "America/St_Johns", "America/Swift_Current", "America/Toronto", "America/Vancouver", "America/Whitehorse", "America/Winnipeg"],
+    "emoji": "🇨🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ca.png",
+      "svg": "https://flagcdn.com/ca.svg"
+    }
+  },
+  "CC": {
+    "name": "Cocos (Keeling) Islands",
+    "native": "Cocos (Keeling) Islands",
+    "capital": "West Island",
+    "continents": ["AS"],
+    "callingCodes": [61],
+    "currencies": ["AUD"],
+    "languages": ["en"],
+    "timezones": ["Asia/Yangon"],
+    "emoji": "🇨🇨",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cc.png",
+      "svg": "https://flagcdn.com/cc.svg"
+    }
+  },
+  "CD": {
+    "name": "Democratic Republic of the Congo",
+    "native": "République démocratique du Congo",
+    "capital": "Kinshasa",
+    "continents": ["AF"],
+    "callingCodes": [243],
+    "currencies": ["CDF"],
+    "languages": ["fr", "ln", "kg", "sw", "lu"],
+    "timezones": ["Africa/Lagos", "Africa/Maputo"],
+    "emoji": "🇨🇩",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cd.png",
+      "svg": "https://flagcdn.com/cd.svg"
+    }
+  },
+  "CF": {
+    "name": "Central African Republic",
+    "native": "Ködörösêse tî Bêafrîka",
+    "capital": "Bangui",
+    "continents": ["AF"],
+    "callingCodes": [236],
+    "currencies": ["XAF"],
+    "languages": ["fr", "sg"],
+    "timezones": ["Africa/Lagos"],
+    "emoji": "🇨🇫",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cf.png",
+      "svg": "https://flagcdn.com/cf.svg"
+    }
+  },
+  "CG": {
+    "name": "Republic of the Congo",
+    "native": "République du Congo",
+    "capital": "Brazzaville",
+    "continents": ["AF"],
+    "callingCodes": [242],
+    "currencies": ["XAF"],
+    "languages": ["fr", "ln"],
+    "timezones": ["Africa/Lagos"],
+    "emoji": "🇨🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cg.png",
+      "svg": "https://flagcdn.com/cg.svg"
+    }
+  },
+  "CH": {
+    "name": "Switzerland",
+    "native": "Schweiz",
+    "capital": "Bern",
+    "continents": ["EU"],
+    "callingCodes": [41],
+    "currencies": ["CHE", "CHF", "CHW"],
+    "languages": ["de", "fr", "it"],
+    "timezones": ["Europe/Zurich"],
+    "emoji": "🇨🇭",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ch.png",
+      "svg": "https://flagcdn.com/ch.svg"
+    }
+  },
+  "CI": {
+    "name": "Ivory Coast",
+    "native": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
+    "continents": ["AF"],
+    "callingCodes": [225],
+    "currencies": ["XOF"],
+    "languages": ["fr"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇨🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ci.png",
+      "svg": "https://flagcdn.com/ci.svg"
+    }
+  },
+  "CK": {
+    "name": "Cook Islands",
+    "native": "Cook Islands",
+    "capital": "Avarua",
+    "continents": ["OC"],
+    "callingCodes": [682],
+    "currencies": ["NZD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Rarotonga"],
+    "emoji": "🇨🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ck.png",
+      "svg": "https://flagcdn.com/ck.svg"
+    }
+  },
+  "CL": {
+    "name": "Chile",
+    "native": "Chile",
+    "capital": "Santiago",
+    "continents": ["SA"],
+    "callingCodes": [56],
+    "currencies": ["CLF", "CLP"],
+    "languages": ["es"],
+    "timezones": ["America/Punta_Arenas", "America/Santiago", "Pacific/Easter"],
+    "emoji": "🇨🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cl.png",
+      "svg": "https://flagcdn.com/cl.svg"
+    }
+  },
+  "CM": {
+    "name": "Cameroon",
+    "native": "Cameroon",
+    "capital": "Yaoundé",
+    "continents": ["AF"],
+    "callingCodes": [237],
+    "currencies": ["XAF"],
+    "languages": ["en", "fr"],
+    "timezones": ["Africa/Lagos"],
+    "emoji": "🇨🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cm.png",
+      "svg": "https://flagcdn.com/cm.svg"
+    }
+  },
+  "CN": {
+    "name": "China",
+    "native": "中国",
+    "capital": "Beijing",
+    "continents": ["AS"],
+    "callingCodes": [86],
+    "currencies": ["CNY"],
+    "languages": ["zh"],
+    "timezones": ["Asia/Shanghai", "Asia/Urumqi"],
+    "emoji": "🇨🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cn.png",
+      "svg": "https://flagcdn.com/cn.svg"
+    }
+  },
+  "CO": {
+    "name": "Colombia",
+    "native": "Colombia",
+    "capital": "Bogotá",
+    "continents": ["SA"],
+    "callingCodes": [57],
+    "currencies": ["COP"],
+    "languages": ["es"],
+    "timezones": ["America/Bogota"],
+    "emoji": "🇨🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/co.png",
+      "svg": "https://flagcdn.com/co.svg"
+    }
+  },
+  "CR": {
+    "name": "Costa Rica",
+    "native": "Costa Rica",
+    "capital": "San José",
+    "continents": ["NA"],
+    "callingCodes": [506],
+    "currencies": ["CRC"],
+    "languages": ["es"],
+    "timezones": ["America/Costa_Rica"],
+    "emoji": "🇨🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cr.png",
+      "svg": "https://flagcdn.com/cr.svg"
+    }
+  },
+  "CU": {
+    "name": "Cuba",
+    "native": "Cuba",
+    "capital": "Havana",
+    "continents": ["NA"],
+    "callingCodes": [53],
+    "currencies": ["CUP"],
+    "languages": ["es"],
+    "timezones": ["America/Havana"],
+    "emoji": "🇨🇺",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cu.png",
+      "svg": "https://flagcdn.com/cu.svg"
+    }
+  },
+  "CV": {
+    "name": "Cape Verde",
+    "native": "Cabo Verde",
+    "capital": "Praia",
+    "continents": ["AF"],
+    "callingCodes": [238],
+    "currencies": ["CVE"],
+    "languages": ["pt"],
+    "timezones": ["Atlantic/Cape_Verde"],
+    "emoji": "🇨🇻",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cv.png",
+      "svg": "https://flagcdn.com/cv.svg"
+    }
+  },
+  "CW": {
+    "name": "Curacao",
+    "native": "Curaçao",
+    "capital": "Willemstad",
+    "continents": ["NA"],
+    "callingCodes": [5999],
+    "currencies": ["ANG"],
+    "languages": ["nl", "pa", "en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇨🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cw.png",
+      "svg": "https://flagcdn.com/cw.svg"
+    }
+  },
+  "CX": {
+    "name": "Christmas Island",
+    "native": "Christmas Island",
+    "capital": "Flying Fish Cove",
+    "continents": ["AS"],
+    "callingCodes": [61],
+    "currencies": ["AUD"],
+    "languages": ["en"],
+    "timezones": ["Asia/Bangkok"],
+    "emoji": "🇨🇽",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cx.png",
+      "svg": "https://flagcdn.com/cx.svg"
+    }
+  },
+  "CY": {
+    "name": "Cyprus",
+    "native": "Κύπρος",
+    "capital": "Nicosia",
+    "continents": ["EU"],
+    "callingCodes": [357],
+    "currencies": ["EUR"],
+    "languages": ["el", "tr", "hy"],
+    "timezones": ["Asia/Famagusta", "Asia/Nicosia"],
+    "emoji": "🇨🇾",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cy.png",
+      "svg": "https://flagcdn.com/cy.svg"
+    }
+  },
+  "CZ": {
+    "name": "Czech Republic",
+    "native": "Česká republika",
+    "capital": "Prague",
+    "continents": ["EU"],
+    "callingCodes": [420],
+    "currencies": ["CZK"],
+    "languages": ["cs"],
+    "timezones": ["Europe/Prague"],
+    "emoji": "🇨🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/cz.png",
+      "svg": "https://flagcdn.com/cz.svg"
+    }
+  },
+  "DE": {
+    "name": "Germany",
+    "native": "Deutschland",
+    "capital": "Berlin",
+    "continents": ["EU"],
+    "callingCodes": [49],
+    "currencies": ["EUR"],
+    "languages": ["de"],
+    "timezones": ["Europe/Berlin", "Europe/Zurich"],
+    "emoji": "🇩🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/de.png",
+      "svg": "https://flagcdn.com/de.svg"
+    }
+  },
+  "DJ": {
+    "name": "Djibouti",
+    "native": "Djibouti",
+    "capital": "Djibouti",
+    "continents": ["AF"],
+    "callingCodes": [253],
+    "currencies": ["DJF"],
+    "languages": ["fr", "ar"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇩🇯",
+    "flag": {
+      "png": "https://flagcdn.com/w320/dj.png",
+      "svg": "https://flagcdn.com/dj.svg"
+    }
+  },
+  "DK": {
+    "name": "Denmark",
+    "native": "Danmark",
+    "capital": "Copenhagen",
+    "continents": ["EU"],
+    "callingCodes": [45],
+    "currencies": ["DKK"],
+    "languages": ["da"],
+    "timezones": ["Europe/Berlin"],
+    "emoji": "🇩🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/dk.png",
+      "svg": "https://flagcdn.com/dk.svg"
+    }
+  },
+  "DM": {
+    "name": "Dominica",
+    "native": "Dominica",
+    "capital": "Roseau",
+    "continents": ["NA"],
+    "callingCodes": [1767],
+    "currencies": ["XCD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇩🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/dm.png",
+      "svg": "https://flagcdn.com/dm.svg"
+    }
+  },
+  "DO": {
+    "name": "Dominican Republic",
+    "native": "República Dominicana",
+    "capital": "Santo Domingo",
+    "continents": ["NA"],
+    "callingCodes": [1809, 1829, 1849],
+    "currencies": ["DOP"],
+    "languages": ["es"],
+    "timezones": ["America/Santo_Domingo"],
+    "emoji": "🇩🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/do.png",
+      "svg": "https://flagcdn.com/do.svg"
+    }
+  },
+  "DZ": {
+    "name": "Algeria",
+    "native": "الجزائر",
+    "capital": "Algiers",
+    "continents": ["AF"],
+    "callingCodes": [213],
+    "currencies": ["DZD"],
+    "languages": ["ar"],
+    "timezones": ["Africa/Algiers"],
+    "emoji": "🇩🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/dz.png",
+      "svg": "https://flagcdn.com/dz.svg"
+    }
+  },
+  "EC": {
+    "name": "Ecuador",
+    "native": "Ecuador",
+    "capital": "Quito",
+    "continents": ["SA"],
+    "callingCodes": [593],
+    "currencies": ["USD"],
+    "languages": ["es"],
+    "timezones": ["America/Guayaquil", "Pacific/Galapagos"],
+    "emoji": "🇪🇨",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ec.png",
+      "svg": "https://flagcdn.com/ec.svg"
+    }
+  },
+  "EE": {
+    "name": "Estonia",
+    "native": "Eesti",
+    "capital": "Tallinn",
+    "continents": ["EU"],
+    "callingCodes": [372],
+    "currencies": ["EUR"],
+    "languages": ["et"],
+    "timezones": ["Europe/Tallinn"],
+    "emoji": "🇪🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ee.png",
+      "svg": "https://flagcdn.com/ee.svg"
+    }
+  },
+  "EG": {
+    "name": "Egypt",
+    "native": "مصر‎",
+    "capital": "Cairo",
+    "continents": ["AF", "AS"],
+    "callingCodes": [20],
+    "currencies": ["EGP"],
+    "languages": ["ar"],
+    "timezones": ["Africa/Cairo"],
+    "emoji": "🇪🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/eg.png",
+      "svg": "https://flagcdn.com/eg.svg"
+    }
+  },
+  "EH": {
+    "name": "Western Sahara",
+    "native": "الصحراء الغربية",
+    "capital": "El Aaiún",
+    "continents": ["AF"],
+    "callingCodes": [212],
+    "currencies": ["MAD", "DZD", "MRU"],
+    "languages": ["es"],
+    "timezones": ["Africa/El_Aaiun"],
+    "emoji": "🇪🇭",
+    "flag": {
+      "png": "https://flagcdn.com/w320/eh.png",
+      "svg": "https://flagcdn.com/eh.svg"
+    }
+  },
+  "ER": {
+    "name": "Eritrea",
+    "native": "ኤርትራ",
+    "capital": "Asmara",
+    "continents": ["AF"],
+    "callingCodes": [291],
+    "currencies": ["ERN"],
+    "languages": ["ti", "ar", "en"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇪🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/er.png",
+      "svg": "https://flagcdn.com/er.svg"
+    }
+  },
+  "ES": {
+    "name": "Spain",
+    "native": "España",
+    "capital": "Madrid",
+    "continents": ["EU"],
+    "callingCodes": [34],
+    "currencies": ["EUR"],
+    "languages": ["es", "eu", "ca", "gl", "oc"],
+    "timezones": ["Africa/Ceuta", "Atlantic/Canary", "Europe/Madrid"],
+    "emoji": "🇪🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/es.png",
+      "svg": "https://flagcdn.com/es.svg"
+    }
+  },
+  "ET": {
+    "name": "Ethiopia",
+    "native": "ኢትዮጵያ",
+    "capital": "Addis Ababa",
+    "continents": ["AF"],
+    "callingCodes": [251],
+    "currencies": ["ETB"],
+    "languages": ["am"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇪🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/et.png",
+      "svg": "https://flagcdn.com/et.svg"
+    }
+  },
+  "FI": {
+    "name": "Finland",
+    "native": "Suomi",
+    "capital": "Helsinki",
+    "continents": ["EU"],
+    "callingCodes": [358],
+    "currencies": ["EUR"],
+    "languages": ["fi", "sv"],
+    "timezones": ["Europe/Helsinki"],
+    "emoji": "🇫🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/fi.png",
+      "svg": "https://flagcdn.com/fi.svg"
+    }
+  },
+  "FJ": {
+    "name": "Fiji",
+    "native": "Fiji",
+    "capital": "Suva",
+    "continents": ["OC"],
+    "callingCodes": [679],
+    "currencies": ["FJD"],
+    "languages": ["en", "fj", "hi", "ur"],
+    "timezones": ["Pacific/Fiji"],
+    "emoji": "🇫🇯",
+    "flag": {
+      "png": "https://flagcdn.com/w320/fj.png",
+      "svg": "https://flagcdn.com/fj.svg"
+    }
+  },
+  "FK": {
+    "name": "Falkland Islands",
+    "native": "Falkland Islands",
+    "capital": "Stanley",
+    "continents": ["SA"],
+    "callingCodes": [500],
+    "currencies": ["FKP"],
+    "languages": ["en"],
+    "timezones": ["Atlantic/Stanley"],
+    "emoji": "🇫🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/fk.png",
+      "svg": "https://flagcdn.com/fk.svg"
+    }
+  },
+  "FM": {
+    "name": "Micronesia",
+    "native": "Micronesia",
+    "capital": "Palikir",
+    "continents": ["OC"],
+    "callingCodes": [691],
+    "currencies": ["USD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Guadalcanal", "Pacific/Kosrae", "Pacific/Port_Moresby"],
+    "emoji": "🇫🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/fm.png",
+      "svg": "https://flagcdn.com/fm.svg"
+    }
+  },
+  "FO": {
+    "name": "Faroe Islands",
+    "native": "Føroyar",
+    "capital": "Tórshavn",
+    "continents": ["EU"],
+    "callingCodes": [298],
+    "currencies": ["DKK"],
+    "languages": ["fo"],
+    "timezones": ["Atlantic/Faroe"],
+    "emoji": "🇫🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/fo.png",
+      "svg": "https://flagcdn.com/fo.svg"
+    }
+  },
+  "FR": {
+    "name": "France",
+    "native": "France",
+    "capital": "Paris",
+    "continents": ["EU"],
+    "callingCodes": [33],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["Europe/Paris"],
+    "emoji": "🇫🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/fr.png",
+      "svg": "https://flagcdn.com/fr.svg"
+    }
+  },
+  "GA": {
+    "name": "Gabon",
+    "native": "Gabon",
+    "capital": "Libreville",
+    "continents": ["AF"],
+    "callingCodes": [241],
+    "currencies": ["XAF"],
+    "languages": ["fr"],
+    "timezones": ["Africa/Lagos"],
+    "emoji": "🇬🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ga.png",
+      "svg": "https://flagcdn.com/ga.svg"
+    }
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "native": "United Kingdom",
+    "capital": "London",
+    "continents": ["EU"],
+    "callingCodes": [44],
+    "currencies": ["GBP"],
+    "languages": ["en"],
+    "timezones": ["Europe/London"],
+    "emoji": "🇬🇧",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gb.png",
+      "svg": "https://flagcdn.com/gb.svg"
+    }
+  },
+  "GD": {
+    "name": "Grenada",
+    "native": "Grenada",
+    "capital": "St. George's",
+    "continents": ["NA"],
+    "callingCodes": [1473],
+    "currencies": ["XCD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇬🇩",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gd.png",
+      "svg": "https://flagcdn.com/gd.svg"
+    }
+  },
+  "GE": {
+    "name": "Georgia",
+    "native": "საქართველო",
+    "capital": "Tbilisi",
+    "continents": ["AS", "EU"],
+    "callingCodes": [995],
+    "currencies": ["GEL"],
+    "languages": ["ka"],
+    "timezones": ["Asia/Tbilisi"],
+    "emoji": "🇬🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ge.png",
+      "svg": "https://flagcdn.com/ge.svg"
+    }
+  },
+  "GF": {
+    "name": "French Guiana",
+    "native": "Guyane française",
+    "capital": "Cayenne",
+    "continents": ["SA"],
+    "callingCodes": [594],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["America/Cayenne"],
+    "emoji": "🇬🇫",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gf.png",
+      "svg": "https://flagcdn.com/gf.svg"
+    }
+  },
+  "GG": {
+    "name": "Guernsey",
+    "native": "Guernsey",
+    "capital": "St. Peter Port",
+    "continents": ["EU"],
+    "callingCodes": [44],
+    "currencies": ["GBP"],
+    "languages": ["en", "fr"],
+    "timezones": ["Europe/London"],
+    "emoji": "🇬🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gg.png",
+      "svg": "https://flagcdn.com/gg.svg"
+    }
+  },
+  "GH": {
+    "name": "Ghana",
+    "native": "Ghana",
+    "capital": "Accra",
+    "continents": ["AF"],
+    "callingCodes": [233],
+    "currencies": ["GHS"],
+    "languages": ["en"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇬🇭",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gh.png",
+      "svg": "https://flagcdn.com/gh.svg"
+    }
+  },
+  "GI": {
+    "name": "Gibraltar",
+    "native": "Gibraltar",
+    "capital": "Gibraltar",
+    "continents": ["EU"],
+    "callingCodes": [350],
+    "currencies": ["GIP"],
+    "languages": ["en"],
+    "timezones": ["Europe/Gibraltar"],
+    "emoji": "🇬🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gi.png",
+      "svg": "https://flagcdn.com/gi.svg"
+    }
+  },
+  "GL": {
+    "name": "Greenland",
+    "native": "Kalaallit Nunaat",
+    "capital": "Nuuk",
+    "continents": ["NA"],
+    "callingCodes": [299],
+    "currencies": ["DKK"],
+    "languages": ["kl"],
+    "timezones": ["America/Danmarkshavn", "America/Nuuk", "America/Scoresbysund", "America/Thule"],
+    "emoji": "🇬🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gl.png",
+      "svg": "https://flagcdn.com/gl.svg"
+    }
+  },
+  "GM": {
+    "name": "Gambia",
+    "native": "Gambia",
+    "capital": "Banjul",
+    "continents": ["AF"],
+    "callingCodes": [220],
+    "currencies": ["GMD"],
+    "languages": ["en"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇬🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gm.png",
+      "svg": "https://flagcdn.com/gm.svg"
+    }
+  },
+  "GN": {
+    "name": "Guinea",
+    "native": "Guinée",
+    "capital": "Conakry",
+    "continents": ["AF"],
+    "callingCodes": [224],
+    "currencies": ["GNF"],
+    "languages": ["fr", "ff"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇬🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gn.png",
+      "svg": "https://flagcdn.com/gn.svg"
+    }
+  },
+  "GP": {
+    "name": "Guadeloupe",
+    "native": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "continents": ["NA"],
+    "callingCodes": [590],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇬🇵",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gp.png",
+      "svg": "https://flagcdn.com/gp.svg"
+    }
+  },
+  "GQ": {
+    "name": "Equatorial Guinea",
+    "native": "Guinea Ecuatorial",
+    "capital": "Malabo",
+    "continents": ["AF"],
+    "callingCodes": [240],
+    "currencies": ["XAF"],
+    "languages": ["es", "fr"],
+    "timezones": ["Africa/Lagos"],
+    "emoji": "🇬🇶",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gq.png",
+      "svg": "https://flagcdn.com/gq.svg"
+    }
+  },
+  "GR": {
+    "name": "Greece",
+    "native": "Ελλάδα",
+    "capital": "Athens",
+    "continents": ["EU"],
+    "callingCodes": [30],
+    "currencies": ["EUR"],
+    "languages": ["el"],
+    "timezones": ["Europe/Athens"],
+    "emoji": "🇬🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gr.png",
+      "svg": "https://flagcdn.com/gr.svg"
+    }
+  },
+  "GS": {
+    "name": "South Georgia and the South Sandwich Islands",
+    "native": "South Georgia",
+    "capital": "King Edward Point",
+    "continents": ["AN"],
+    "callingCodes": [500],
+    "currencies": ["GBP"],
+    "languages": ["en"],
+    "timezones": ["Atlantic/South_Georgia"],
+    "emoji": "🇬🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gs.png",
+      "svg": "https://flagcdn.com/gs.svg"
+    }
+  },
+  "GT": {
+    "name": "Guatemala",
+    "native": "Guatemala",
+    "capital": "Guatemala City",
+    "continents": ["NA"],
+    "callingCodes": [502],
+    "currencies": ["GTQ"],
+    "languages": ["es"],
+    "timezones": ["America/Guatemala"],
+    "emoji": "🇬🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gt.png",
+      "svg": "https://flagcdn.com/gt.svg"
+    }
+  },
+  "GU": {
+    "name": "Guam",
+    "native": "Guam",
+    "capital": "Hagåtña",
+    "continents": ["OC"],
+    "callingCodes": [1671],
+    "currencies": ["USD"],
+    "languages": ["en", "ch", "es"],
+    "timezones": ["Pacific/Guam"],
+    "emoji": "🇬🇺",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gu.png",
+      "svg": "https://flagcdn.com/gu.svg"
+    }
+  },
+  "GW": {
+    "name": "Guinea-Bissau",
+    "native": "Guiné-Bissau",
+    "capital": "Bissau",
+    "continents": ["AF"],
+    "callingCodes": [245],
+    "currencies": ["XOF"],
+    "languages": ["pt"],
+    "timezones": ["Africa/Bissau"],
+    "emoji": "🇬🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gw.png",
+      "svg": "https://flagcdn.com/gw.svg"
+    }
+  },
+  "GY": {
+    "name": "Guyana",
+    "native": "Guyana",
+    "capital": "Georgetown",
+    "continents": ["SA"],
+    "callingCodes": [592],
+    "currencies": ["GYD"],
+    "languages": ["en"],
+    "timezones": ["America/Guyana"],
+    "emoji": "🇬🇾",
+    "flag": {
+      "png": "https://flagcdn.com/w320/gy.png",
+      "svg": "https://flagcdn.com/gy.svg"
+    }
+  },
+  "HK": {
+    "name": "Hong Kong",
+    "native": "香港",
+    "capital": "City of Victoria",
+    "continents": ["AS"],
+    "callingCodes": [852],
+    "currencies": ["HKD"],
+    "languages": ["zh", "en"],
+    "timezones": ["Asia/Hong_Kong"],
+    "emoji": "🇭🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/hk.png",
+      "svg": "https://flagcdn.com/hk.svg"
+    }
+  },
+  "HM": {
+    "name": "Heard Island and McDonald Islands",
+    "native": "Heard Island and McDonald Islands",
+    "capital": "",
+    "continents": ["AN"],
+    "callingCodes": [61],
+    "currencies": ["AUD"],
+    "languages": ["en"],
+    "timezones": [],
+    "emoji": "🇭🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/hm.png",
+      "svg": "https://flagcdn.com/hm.svg"
+    }
+  },
+  "HN": {
+    "name": "Honduras",
+    "native": "Honduras",
+    "capital": "Tegucigalpa",
+    "continents": ["NA"],
+    "callingCodes": [504],
+    "currencies": ["HNL"],
+    "languages": ["es"],
+    "timezones": ["America/Tegucigalpa"],
+    "emoji": "🇭🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/hn.png",
+      "svg": "https://flagcdn.com/hn.svg"
+    }
+  },
+  "HR": {
+    "name": "Croatia",
+    "native": "Hrvatska",
+    "capital": "Zagreb",
+    "continents": ["EU"],
+    "callingCodes": [385],
+    "currencies": ["EUR"],
+    "languages": ["hr"],
+    "timezones": ["Europe/Belgrade"],
+    "emoji": "🇭🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/hr.png",
+      "svg": "https://flagcdn.com/hr.svg"
+    }
+  },
+  "HT": {
+    "name": "Haiti",
+    "native": "Haïti",
+    "capital": "Port-au-Prince",
+    "continents": ["NA"],
+    "callingCodes": [509],
+    "currencies": ["HTG", "USD"],
+    "languages": ["fr", "ht"],
+    "timezones": ["America/Port-au-Prince"],
+    "emoji": "🇭🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ht.png",
+      "svg": "https://flagcdn.com/ht.svg"
+    }
+  },
+  "HU": {
+    "name": "Hungary",
+    "native": "Magyarország",
+    "capital": "Budapest",
+    "continents": ["EU"],
+    "callingCodes": [36],
+    "currencies": ["HUF"],
+    "languages": ["hu"],
+    "timezones": ["Europe/Budapest"],
+    "emoji": "🇭🇺",
+    "flag": {
+      "png": "https://flagcdn.com/w320/hu.png",
+      "svg": "https://flagcdn.com/hu.svg"
+    }
+  },
+  "ID": {
+    "name": "Indonesia",
+    "native": "Indonesia",
+    "capital": "Jakarta",
+    "continents": ["AS"],
+    "callingCodes": [62],
+    "currencies": ["IDR"],
+    "languages": ["id"],
+    "timezones": ["Asia/Jakarta", "Asia/Jayapura", "Asia/Makassar", "Asia/Pontianak"],
+    "emoji": "🇮🇩",
+    "flag": {
+      "png": "https://flagcdn.com/w320/id.png",
+      "svg": "https://flagcdn.com/id.svg"
+    }
+  },
+  "IE": {
+    "name": "Ireland",
+    "native": "Éire",
+    "capital": "Dublin",
+    "continents": ["EU"],
+    "callingCodes": [353],
+    "currencies": ["EUR"],
+    "languages": ["ga", "en"],
+    "timezones": ["Europe/Dublin"],
+    "emoji": "🇮🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ie.png",
+      "svg": "https://flagcdn.com/ie.svg"
+    }
+  },
+  "IL": {
+    "name": "Israel",
+    "native": "יִשְׂרָאֵל",
+    "capital": "Jerusalem",
+    "continents": ["AS"],
+    "callingCodes": [972],
+    "currencies": ["ILS"],
+    "languages": ["he", "ar"],
+    "timezones": ["Asia/Jerusalem"],
+    "emoji": "🇮🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/il.png",
+      "svg": "https://flagcdn.com/il.svg"
+    }
+  },
+  "IM": {
+    "name": "Isle of Man",
+    "native": "Isle of Man",
+    "capital": "Douglas",
+    "continents": ["EU"],
+    "callingCodes": [44],
+    "currencies": ["GBP"],
+    "languages": ["en", "gv"],
+    "timezones": ["Europe/London"],
+    "emoji": "🇮🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/im.png",
+      "svg": "https://flagcdn.com/im.svg"
+    }
+  },
+  "IN": {
+    "name": "India",
+    "native": "भारत",
+    "capital": "New Delhi",
+    "continents": ["AS"],
+    "callingCodes": [91],
+    "currencies": ["INR"],
+    "languages": ["hi", "en"],
+    "timezones": ["Asia/Kolkata"],
+    "emoji": "🇮🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/in.png",
+      "svg": "https://flagcdn.com/in.svg"
+    }
+  },
+  "IO": {
+    "name": "British Indian Ocean Territory",
+    "native": "British Indian Ocean Territory",
+    "capital": "Diego Garcia",
+    "continents": ["AS"],
+    "callingCodes": [246],
+    "currencies": ["USD"],
+    "languages": ["en"],
+    "timezones": ["Indian/Chagos"],
+    "emoji": "🇮🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/io.png",
+      "svg": "https://flagcdn.com/io.svg"
+    }
+  },
+  "IQ": {
+    "name": "Iraq",
+    "native": "العراق",
+    "capital": "Baghdad",
+    "continents": ["AS"],
+    "callingCodes": [964],
+    "currencies": ["IQD"],
+    "languages": ["ar", "ku"],
+    "timezones": ["Asia/Baghdad"],
+    "emoji": "🇮🇶",
+    "flag": {
+      "png": "https://flagcdn.com/w320/iq.png",
+      "svg": "https://flagcdn.com/iq.svg"
+    }
+  },
+  "IR": {
+    "name": "Iran",
+    "native": "ایران",
+    "capital": "Tehran",
+    "continents": ["AS"],
+    "callingCodes": [98],
+    "currencies": ["IRR"],
+    "languages": ["fa"],
+    "timezones": ["Asia/Tehran"],
+    "emoji": "🇮🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ir.png",
+      "svg": "https://flagcdn.com/ir.svg"
+    }
+  },
+  "IS": {
+    "name": "Iceland",
+    "native": "Ísland",
+    "capital": "Reykjavik",
+    "continents": ["EU"],
+    "callingCodes": [354],
+    "currencies": ["ISK"],
+    "languages": ["is"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇮🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/is.png",
+      "svg": "https://flagcdn.com/is.svg"
+    }
+  },
+  "IT": {
+    "name": "Italy",
+    "native": "Italia",
+    "capital": "Rome",
+    "continents": ["EU"],
+    "callingCodes": [39],
+    "currencies": ["EUR"],
+    "languages": ["it"],
+    "timezones": ["Europe/Rome"],
+    "emoji": "🇮🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/it.png",
+      "svg": "https://flagcdn.com/it.svg"
+    }
+  },
+  "JE": {
+    "name": "Jersey",
+    "native": "Jersey",
+    "capital": "Saint Helier",
+    "continents": ["EU"],
+    "callingCodes": [44],
+    "currencies": ["GBP"],
+    "languages": ["en", "fr"],
+    "timezones": ["Europe/London"],
+    "emoji": "🇯🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/je.png",
+      "svg": "https://flagcdn.com/je.svg"
+    }
+  },
+  "JM": {
+    "name": "Jamaica",
+    "native": "Jamaica",
+    "capital": "Kingston",
+    "continents": ["NA"],
+    "callingCodes": [1876],
+    "currencies": ["JMD"],
+    "languages": ["en"],
+    "timezones": ["America/Jamaica"],
+    "emoji": "🇯🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/jm.png",
+      "svg": "https://flagcdn.com/jm.svg"
+    }
+  },
+  "JO": {
+    "name": "Jordan",
+    "native": "الأردن",
+    "capital": "Amman",
+    "continents": ["AS"],
+    "callingCodes": [962],
+    "currencies": ["JOD"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Amman"],
+    "emoji": "🇯🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/jo.png",
+      "svg": "https://flagcdn.com/jo.svg"
+    }
+  },
+  "JP": {
+    "name": "Japan",
+    "native": "日本",
+    "capital": "Tokyo",
+    "continents": ["AS"],
+    "callingCodes": [81],
+    "currencies": ["JPY"],
+    "languages": ["ja"],
+    "timezones": ["Asia/Tokyo"],
+    "emoji": "🇯🇵",
+    "flag": {
+      "png": "https://flagcdn.com/w320/jp.png",
+      "svg": "https://flagcdn.com/jp.svg"
+    }
+  },
+  "KE": {
+    "name": "Kenya",
+    "native": "Kenya",
+    "capital": "Nairobi",
+    "continents": ["AF"],
+    "callingCodes": [254],
+    "currencies": ["KES"],
+    "languages": ["en", "sw"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇰🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ke.png",
+      "svg": "https://flagcdn.com/ke.svg"
+    }
+  },
+  "KG": {
+    "name": "Kyrgyzstan",
+    "native": "Кыргызстан",
+    "capital": "Bishkek",
+    "continents": ["AS"],
+    "callingCodes": [996],
+    "currencies": ["KGS"],
+    "languages": ["ky", "ru"],
+    "timezones": ["Asia/Bishkek"],
+    "emoji": "🇰🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/kg.png",
+      "svg": "https://flagcdn.com/kg.svg"
+    }
+  },
+  "KH": {
+    "name": "Cambodia",
+    "native": "Kâmpŭchéa",
+    "capital": "Phnom Penh",
+    "continents": ["AS"],
+    "callingCodes": [855],
+    "currencies": ["KHR"],
+    "languages": ["km"],
+    "timezones": ["Asia/Bangkok"],
+    "emoji": "🇰🇭",
+    "flag": {
+      "png": "https://flagcdn.com/w320/kh.png",
+      "svg": "https://flagcdn.com/kh.svg"
+    }
+  },
+  "KI": {
+    "name": "Kiribati",
+    "native": "Kiribati",
+    "capital": "South Tarawa",
+    "continents": ["OC"],
+    "callingCodes": [686],
+    "currencies": ["AUD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Kanton", "Pacific/Kiritimati", "Pacific/Tarawa"],
+    "emoji": "🇰🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ki.png",
+      "svg": "https://flagcdn.com/ki.svg"
+    }
+  },
+  "KM": {
+    "name": "Comoros",
+    "native": "Komori",
+    "capital": "Moroni",
+    "continents": ["AF"],
+    "callingCodes": [269],
+    "currencies": ["KMF"],
+    "languages": ["ar", "fr"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇰🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/km.png",
+      "svg": "https://flagcdn.com/km.svg"
+    }
+  },
+  "KN": {
+    "name": "Saint Kitts and Nevis",
+    "native": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "continents": ["NA"],
+    "callingCodes": [1869],
+    "currencies": ["XCD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇰🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/kn.png",
+      "svg": "https://flagcdn.com/kn.svg"
+    }
+  },
+  "KP": {
+    "name": "North Korea",
+    "native": "북한",
+    "capital": "Pyongyang",
+    "continents": ["AS"],
+    "callingCodes": [850],
+    "currencies": ["KPW"],
+    "languages": ["ko"],
+    "timezones": ["Asia/Pyongyang"],
+    "emoji": "🇰🇵",
+    "flag": {
+      "png": "https://flagcdn.com/w320/kp.png",
+      "svg": "https://flagcdn.com/kp.svg"
+    }
+  },
+  "KR": {
+    "name": "South Korea",
+    "native": "대한민국",
+    "capital": "Seoul",
+    "continents": ["AS"],
+    "callingCodes": [82],
+    "currencies": ["KRW"],
+    "languages": ["ko"],
+    "timezones": ["Asia/Seoul"],
+    "emoji": "🇰🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/kr.png",
+      "svg": "https://flagcdn.com/kr.svg"
+    }
+  },
+  "KW": {
+    "name": "Kuwait",
+    "native": "الكويت",
+    "capital": "Kuwait City",
+    "continents": ["AS"],
+    "callingCodes": [965],
+    "currencies": ["KWD"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Riyadh"],
+    "emoji": "🇰🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/kw.png",
+      "svg": "https://flagcdn.com/kw.svg"
+    }
+  },
+  "KY": {
+    "name": "Cayman Islands",
+    "native": "Cayman Islands",
+    "capital": "George Town",
+    "continents": ["NA"],
+    "callingCodes": [1345],
+    "currencies": ["KYD"],
+    "languages": ["en"],
+    "timezones": ["America/Panama"],
+    "emoji": "🇰🇾",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ky.png",
+      "svg": "https://flagcdn.com/ky.svg"
+    }
+  },
+  "KZ": {
+    "name": "Kazakhstan",
+    "native": "Қазақстан",
+    "capital": "Astana",
+    "continents": ["AS", "EU"],
+    "callingCodes": [76, 77],
+    "currencies": ["KZT"],
+    "languages": ["kk", "ru"],
+    "timezones": ["Asia/Almaty", "Asia/Aqtau", "Asia/Aqtobe", "Asia/Atyrau", "Asia/Oral", "Asia/Qostanay", "Asia/Qyzylorda"],
+    "emoji": "🇰🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/kz.png",
+      "svg": "https://flagcdn.com/kz.svg"
+    }
+  },
+  "LA": {
+    "name": "Laos",
+    "native": "ສປປລາວ",
+    "capital": "Vientiane",
+    "continents": ["AS"],
+    "callingCodes": [856],
+    "currencies": ["LAK"],
+    "languages": ["lo"],
+    "timezones": ["Asia/Bangkok"],
+    "emoji": "🇱🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/la.png",
+      "svg": "https://flagcdn.com/la.svg"
+    }
+  },
+  "LB": {
+    "name": "Lebanon",
+    "native": "لبنان",
+    "capital": "Beirut",
+    "continents": ["AS"],
+    "callingCodes": [961],
+    "currencies": ["LBP"],
+    "languages": ["ar", "fr"],
+    "timezones": ["Asia/Beirut"],
+    "emoji": "🇱🇧",
+    "flag": {
+      "png": "https://flagcdn.com/w320/lb.png",
+      "svg": "https://flagcdn.com/lb.svg"
+    }
+  },
+  "LC": {
+    "name": "Saint Lucia",
+    "native": "Saint Lucia",
+    "capital": "Castries",
+    "continents": ["NA"],
+    "callingCodes": [1758],
+    "currencies": ["XCD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇱🇨",
+    "flag": {
+      "png": "https://flagcdn.com/w320/lc.png",
+      "svg": "https://flagcdn.com/lc.svg"
+    }
+  },
+  "LI": {
+    "name": "Liechtenstein",
+    "native": "Liechtenstein",
+    "capital": "Vaduz",
+    "continents": ["EU"],
+    "callingCodes": [423],
+    "currencies": ["CHF"],
+    "languages": ["de"],
+    "timezones": ["Europe/Zurich"],
+    "emoji": "🇱🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/li.png",
+      "svg": "https://flagcdn.com/li.svg"
+    }
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "native": "śrī laṃkāva",
+    "capital": "Colombo",
+    "continents": ["AS"],
+    "callingCodes": [94],
+    "currencies": ["LKR"],
+    "languages": ["si", "ta"],
+    "timezones": ["Asia/Colombo"],
+    "emoji": "🇱🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/lk.png",
+      "svg": "https://flagcdn.com/lk.svg"
+    }
+  },
+  "LR": {
+    "name": "Liberia",
+    "native": "Liberia",
+    "capital": "Monrovia",
+    "continents": ["AF"],
+    "callingCodes": [231],
+    "currencies": ["LRD"],
+    "languages": ["en"],
+    "timezones": ["Africa/Monrovia"],
+    "emoji": "🇱🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/lr.png",
+      "svg": "https://flagcdn.com/lr.svg"
+    }
+  },
+  "LS": {
+    "name": "Lesotho",
+    "native": "Lesotho",
+    "capital": "Maseru",
+    "continents": ["AF"],
+    "callingCodes": [266],
+    "currencies": ["LSL", "ZAR"],
+    "languages": ["en", "st"],
+    "timezones": ["Africa/Johannesburg"],
+    "emoji": "🇱🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ls.png",
+      "svg": "https://flagcdn.com/ls.svg"
+    }
+  },
+  "LT": {
+    "name": "Lithuania",
+    "native": "Lietuva",
+    "capital": "Vilnius",
+    "continents": ["EU"],
+    "callingCodes": [370],
+    "currencies": ["EUR"],
+    "languages": ["lt"],
+    "timezones": ["Europe/Vilnius"],
+    "emoji": "🇱🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/lt.png",
+      "svg": "https://flagcdn.com/lt.svg"
+    }
+  },
+  "LU": {
+    "name": "Luxembourg",
+    "native": "Luxembourg",
+    "capital": "Luxembourg",
+    "continents": ["EU"],
+    "callingCodes": [352],
+    "currencies": ["EUR"],
+    "languages": ["fr", "de", "lb"],
+    "timezones": ["Europe/Brussels"],
+    "emoji": "🇱🇺",
+    "flag": {
+      "png": "https://flagcdn.com/w320/lu.png",
+      "svg": "https://flagcdn.com/lu.svg"
+    }
+  },
+  "LV": {
+    "name": "Latvia",
+    "native": "Latvija",
+    "capital": "Riga",
+    "continents": ["EU"],
+    "callingCodes": [371],
+    "currencies": ["EUR"],
+    "languages": ["lv"],
+    "timezones": ["Europe/Riga"],
+    "emoji": "🇱🇻",
+    "flag": {
+      "png": "https://flagcdn.com/w320/lv.png",
+      "svg": "https://flagcdn.com/lv.svg"
+    }
+  },
+  "LY": {
+    "name": "Libya",
+    "native": "‏ليبيا",
+    "capital": "Tripoli",
+    "continents": ["AF"],
+    "callingCodes": [218],
+    "currencies": ["LYD"],
+    "languages": ["ar"],
+    "timezones": ["Africa/Tripoli"],
+    "emoji": "🇱🇾",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ly.png",
+      "svg": "https://flagcdn.com/ly.svg"
+    }
+  },
+  "MA": {
+    "name": "Morocco",
+    "native": "المغرب",
+    "capital": "Rabat",
+    "continents": ["AF"],
+    "callingCodes": [212],
+    "currencies": ["MAD"],
+    "languages": ["ar"],
+    "timezones": ["Africa/Casablanca"],
+    "emoji": "🇲🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ma.png",
+      "svg": "https://flagcdn.com/ma.svg"
+    }
+  },
+  "MC": {
+    "name": "Monaco",
+    "native": "Monaco",
+    "capital": "Monaco",
+    "continents": ["EU"],
+    "callingCodes": [377],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["Europe/Paris"],
+    "emoji": "🇲🇨",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mc.png",
+      "svg": "https://flagcdn.com/mc.svg"
+    }
+  },
+  "MD": {
+    "name": "Moldova",
+    "native": "Moldova",
+    "capital": "Chișinău",
+    "continents": ["EU"],
+    "callingCodes": [373],
+    "currencies": ["MDL"],
+    "languages": ["ro"],
+    "timezones": ["Europe/Chisinau"],
+    "emoji": "🇲🇩",
+    "flag": {
+      "png": "https://flagcdn.com/w320/md.png",
+      "svg": "https://flagcdn.com/md.svg"
+    }
+  },
+  "ME": {
+    "name": "Montenegro",
+    "native": "Црна Гора",
+    "capital": "Podgorica",
+    "continents": ["EU"],
+    "callingCodes": [382],
+    "currencies": ["EUR"],
+    "languages": ["sr", "bs", "sq", "hr"],
+    "timezones": ["Europe/Belgrade"],
+    "emoji": "🇲🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/me.png",
+      "svg": "https://flagcdn.com/me.svg"
+    }
+  },
+  "MF": {
+    "name": "Saint Martin",
+    "native": "Saint-Martin",
+    "capital": "Marigot",
+    "continents": ["NA"],
+    "callingCodes": [590],
+    "currencies": ["EUR"],
+    "languages": ["en", "fr", "nl"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇲🇫",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mf.png",
+      "svg": "https://flagcdn.com/mf.svg"
+    }
+  },
+  "MG": {
+    "name": "Madagascar",
+    "native": "Madagasikara",
+    "capital": "Antananarivo",
+    "continents": ["AF"],
+    "callingCodes": [261],
+    "currencies": ["MGA"],
+    "languages": ["fr", "mg"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇲🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mg.png",
+      "svg": "https://flagcdn.com/mg.svg"
+    }
+  },
+  "MH": {
+    "name": "Marshall Islands",
+    "native": "M̧ajeļ",
+    "capital": "Majuro",
+    "continents": ["OC"],
+    "callingCodes": [692],
+    "currencies": ["USD"],
+    "languages": ["en", "mh"],
+    "timezones": ["Pacific/Kwajalein", "Pacific/Tarawa"],
+    "emoji": "🇲🇭",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mh.png",
+      "svg": "https://flagcdn.com/mh.svg"
+    }
+  },
+  "MK": {
+    "name": "North Macedonia",
+    "native": "Северна Македонија",
+    "capital": "Skopje",
+    "continents": ["EU"],
+    "callingCodes": [389],
+    "currencies": ["MKD"],
+    "languages": ["mk"],
+    "timezones": ["Europe/Belgrade"],
+    "emoji": "🇲🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mk.png",
+      "svg": "https://flagcdn.com/mk.svg"
+    }
+  },
+  "ML": {
+    "name": "Mali",
+    "native": "Mali",
+    "capital": "Bamako",
+    "continents": ["AF"],
+    "callingCodes": [223],
+    "currencies": ["XOF"],
+    "languages": ["fr"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇲🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ml.png",
+      "svg": "https://flagcdn.com/ml.svg"
+    }
+  },
+  "MM": {
+    "name": "Myanmar (Burma)",
+    "native": "မြန်မာ",
+    "capital": "Naypyidaw",
+    "continents": ["AS"],
+    "callingCodes": [95],
+    "currencies": ["MMK"],
+    "languages": ["my"],
+    "timezones": ["Asia/Yangon"],
+    "emoji": "🇲🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mm.png",
+      "svg": "https://flagcdn.com/mm.svg"
+    }
+  },
+  "MN": {
+    "name": "Mongolia",
+    "native": "Монгол улс",
+    "capital": "Ulan Bator",
+    "continents": ["AS"],
+    "callingCodes": [976],
+    "currencies": ["MNT"],
+    "languages": ["mn"],
+    "timezones": ["Asia/Choibalsan", "Asia/Hovd", "Asia/Ulaanbaatar"],
+    "emoji": "🇲🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mn.png",
+      "svg": "https://flagcdn.com/mn.svg"
+    }
+  },
+  "MO": {
+    "name": "Macao",
+    "native": "澳門",
+    "capital": "",
+    "continents": ["AS"],
+    "callingCodes": [853],
+    "currencies": ["MOP"],
+    "languages": ["zh", "pt"],
+    "timezones": ["Asia/Macau"],
+    "emoji": "🇲🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mo.png",
+      "svg": "https://flagcdn.com/mo.svg"
+    }
+  },
+  "MP": {
+    "name": "Northern Mariana Islands",
+    "native": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "continents": ["OC"],
+    "callingCodes": [1670],
+    "currencies": ["USD"],
+    "languages": ["en", "ch"],
+    "timezones": ["Pacific/Guam"],
+    "emoji": "🇲🇵",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mp.png",
+      "svg": "https://flagcdn.com/mp.svg"
+    }
+  },
+  "MQ": {
+    "name": "Martinique",
+    "native": "Martinique",
+    "capital": "Fort-de-France",
+    "continents": ["NA"],
+    "callingCodes": [596],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["America/Martinique"],
+    "emoji": "🇲🇶",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mq.png",
+      "svg": "https://flagcdn.com/mq.svg"
+    }
+  },
+  "MR": {
+    "name": "Mauritania",
+    "native": "موريتانيا",
+    "capital": "Nouakchott",
+    "continents": ["AF"],
+    "callingCodes": [222],
+    "currencies": ["MRU"],
+    "languages": ["ar"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇲🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mr.png",
+      "svg": "https://flagcdn.com/mr.svg"
+    }
+  },
+  "MS": {
+    "name": "Montserrat",
+    "native": "Montserrat",
+    "capital": "Plymouth",
+    "continents": ["NA"],
+    "callingCodes": [1664],
+    "currencies": ["XCD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇲🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ms.png",
+      "svg": "https://flagcdn.com/ms.svg"
+    }
+  },
+  "MT": {
+    "name": "Malta",
+    "native": "Malta",
+    "capital": "Valletta",
+    "continents": ["EU"],
+    "callingCodes": [356],
+    "currencies": ["EUR"],
+    "languages": ["mt", "en"],
+    "timezones": ["Europe/Malta"],
+    "emoji": "🇲🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mt.png",
+      "svg": "https://flagcdn.com/mt.svg"
+    }
+  },
+  "MU": {
+    "name": "Mauritius",
+    "native": "Maurice",
+    "capital": "Port Louis",
+    "continents": ["AF"],
+    "callingCodes": [230],
+    "currencies": ["MUR"],
+    "languages": ["en"],
+    "timezones": ["Indian/Mauritius"],
+    "emoji": "🇲🇺",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mu.png",
+      "svg": "https://flagcdn.com/mu.svg"
+    }
+  },
+  "MV": {
+    "name": "Maldives",
+    "native": "Maldives",
+    "capital": "Malé",
+    "continents": ["AS"],
+    "callingCodes": [960],
+    "currencies": ["MVR"],
+    "languages": ["dv"],
+    "timezones": ["Indian/Maldives"],
+    "emoji": "🇲🇻",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mv.png",
+      "svg": "https://flagcdn.com/mv.svg"
+    }
+  },
+  "MW": {
+    "name": "Malawi",
+    "native": "Malawi",
+    "capital": "Lilongwe",
+    "continents": ["AF"],
+    "callingCodes": [265],
+    "currencies": ["MWK"],
+    "languages": ["en", "ny"],
+    "timezones": ["Africa/Maputo"],
+    "emoji": "🇲🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mw.png",
+      "svg": "https://flagcdn.com/mw.svg"
+    }
+  },
+  "MX": {
+    "name": "Mexico",
+    "native": "México",
+    "capital": "Mexico City",
+    "continents": ["NA"],
+    "callingCodes": [52],
+    "currencies": ["MXN"],
+    "languages": ["es"],
+    "timezones": ["America/Bahia_Banderas", "America/Cancun", "America/Chihuahua", "America/Ciudad_Juarez", "America/Hermosillo", "America/Matamoros", "America/Mazatlan", "America/Merida", "America/Mexico_City", "America/Monterrey", "America/Ojinaga", "America/Tijuana"],
+    "emoji": "🇲🇽",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mx.png",
+      "svg": "https://flagcdn.com/mx.svg"
+    }
+  },
+  "MY": {
+    "name": "Malaysia",
+    "native": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "continents": ["AS"],
+    "callingCodes": [60],
+    "currencies": ["MYR"],
+    "languages": ["ms"],
+    "timezones": ["Asia/Kuching", "Asia/Singapore"],
+    "emoji": "🇲🇾",
+    "flag": {
+      "png": "https://flagcdn.com/w320/my.png",
+      "svg": "https://flagcdn.com/my.svg"
+    }
+  },
+  "MZ": {
+    "name": "Mozambique",
+    "native": "Moçambique",
+    "capital": "Maputo",
+    "continents": ["AF"],
+    "callingCodes": [258],
+    "currencies": ["MZN"],
+    "languages": ["pt"],
+    "timezones": ["Africa/Maputo"],
+    "emoji": "🇲🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/mz.png",
+      "svg": "https://flagcdn.com/mz.svg"
+    }
+  },
+  "NA": {
+    "name": "Namibia",
+    "native": "Namibia",
+    "capital": "Windhoek",
+    "continents": ["AF"],
+    "callingCodes": [264],
+    "currencies": ["NAD", "ZAR"],
+    "languages": ["en", "af"],
+    "timezones": ["Africa/Windhoek"],
+    "emoji": "🇳🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/na.png",
+      "svg": "https://flagcdn.com/na.svg"
+    }
+  },
+  "NC": {
+    "name": "New Caledonia",
+    "native": "Nouvelle-Calédonie",
+    "capital": "Nouméa",
+    "continents": ["OC"],
+    "callingCodes": [687],
+    "currencies": ["XPF"],
+    "languages": ["fr"],
+    "timezones": ["Pacific/Noumea"],
+    "emoji": "🇳🇨",
+    "flag": {
+      "png": "https://flagcdn.com/w320/nc.png",
+      "svg": "https://flagcdn.com/nc.svg"
+    }
+  },
+  "NE": {
+    "name": "Niger",
+    "native": "Niger",
+    "capital": "Niamey",
+    "continents": ["AF"],
+    "callingCodes": [227],
+    "currencies": ["XOF"],
+    "languages": ["fr"],
+    "timezones": ["Africa/Lagos"],
+    "emoji": "🇳🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ne.png",
+      "svg": "https://flagcdn.com/ne.svg"
+    }
+  },
+  "NF": {
+    "name": "Norfolk Island",
+    "native": "Norfolk Island",
+    "capital": "Kingston",
+    "continents": ["OC"],
+    "callingCodes": [672],
+    "currencies": ["AUD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Norfolk"],
+    "emoji": "🇳🇫",
+    "flag": {
+      "png": "https://flagcdn.com/w320/nf.png",
+      "svg": "https://flagcdn.com/nf.svg"
+    }
+  },
+  "NG": {
+    "name": "Nigeria",
+    "native": "Nigeria",
+    "capital": "Abuja",
+    "continents": ["AF"],
+    "callingCodes": [234],
+    "currencies": ["NGN"],
+    "languages": ["en"],
+    "timezones": ["Africa/Lagos"],
+    "emoji": "🇳🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ng.png",
+      "svg": "https://flagcdn.com/ng.svg"
+    }
+  },
+  "NI": {
+    "name": "Nicaragua",
+    "native": "Nicaragua",
+    "capital": "Managua",
+    "continents": ["NA"],
+    "callingCodes": [505],
+    "currencies": ["NIO"],
+    "languages": ["es"],
+    "timezones": ["America/Managua"],
+    "emoji": "🇳🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ni.png",
+      "svg": "https://flagcdn.com/ni.svg"
+    }
+  },
+  "NL": {
+    "name": "Netherlands",
+    "native": "Nederland",
+    "capital": "Amsterdam",
+    "continents": ["EU"],
+    "callingCodes": [31],
+    "currencies": ["EUR"],
+    "languages": ["nl"],
+    "timezones": ["Europe/Brussels"],
+    "emoji": "🇳🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/nl.png",
+      "svg": "https://flagcdn.com/nl.svg"
+    }
+  },
+  "NO": {
+    "name": "Norway",
+    "native": "Norge",
+    "capital": "Oslo",
+    "continents": ["EU"],
+    "callingCodes": [47],
+    "currencies": ["NOK"],
+    "languages": ["no", "nb", "nn"],
+    "timezones": ["Europe/Berlin"],
+    "emoji": "🇳🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/no.png",
+      "svg": "https://flagcdn.com/no.svg"
+    }
+  },
+  "NP": {
+    "name": "Nepal",
+    "native": "नेपाल",
+    "capital": "Kathmandu",
+    "continents": ["AS"],
+    "callingCodes": [977],
+    "currencies": ["NPR"],
+    "languages": ["ne"],
+    "timezones": ["Asia/Kathmandu"],
+    "emoji": "🇳🇵",
+    "flag": {
+      "png": "https://flagcdn.com/w320/np.png",
+      "svg": "https://flagcdn.com/np.svg"
+    }
+  },
+  "NR": {
+    "name": "Nauru",
+    "native": "Nauru",
+    "capital": "Yaren",
+    "continents": ["OC"],
+    "callingCodes": [674],
+    "currencies": ["AUD"],
+    "languages": ["en", "na"],
+    "timezones": ["Pacific/Nauru"],
+    "emoji": "🇳🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/nr.png",
+      "svg": "https://flagcdn.com/nr.svg"
+    }
+  },
+  "NU": {
+    "name": "Niue",
+    "native": "Niuē",
+    "capital": "Alofi",
+    "continents": ["OC"],
+    "callingCodes": [683],
+    "currencies": ["NZD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Niue"],
+    "emoji": "🇳🇺",
+    "flag": {
+      "png": "https://flagcdn.com/w320/nu.png",
+      "svg": "https://flagcdn.com/nu.svg"
+    }
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "native": "New Zealand",
+    "capital": "Wellington",
+    "continents": ["OC"],
+    "callingCodes": [64],
+    "currencies": ["NZD"],
+    "languages": ["en", "mi"],
+    "timezones": ["Pacific/Auckland", "Pacific/Chatham"],
+    "emoji": "🇳🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/nz.png",
+      "svg": "https://flagcdn.com/nz.svg"
+    }
+  },
+  "OM": {
+    "name": "Oman",
+    "native": "عمان",
+    "capital": "Muscat",
+    "continents": ["AS"],
+    "callingCodes": [968],
+    "currencies": ["OMR"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Dubai"],
+    "emoji": "🇴🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/om.png",
+      "svg": "https://flagcdn.com/om.svg"
+    }
+  },
+  "PA": {
+    "name": "Panama",
+    "native": "Panamá",
+    "capital": "Panama City",
+    "continents": ["NA"],
+    "callingCodes": [507],
+    "currencies": ["PAB", "USD"],
+    "languages": ["es"],
+    "timezones": ["America/Panama"],
+    "emoji": "🇵🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pa.png",
+      "svg": "https://flagcdn.com/pa.svg"
+    }
+  },
+  "PE": {
+    "name": "Peru",
+    "native": "Perú",
+    "capital": "Lima",
+    "continents": ["SA"],
+    "callingCodes": [51],
+    "currencies": ["PEN"],
+    "languages": ["es"],
+    "timezones": ["America/Lima"],
+    "emoji": "🇵🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pe.png",
+      "svg": "https://flagcdn.com/pe.svg"
+    }
+  },
+  "PF": {
+    "name": "French Polynesia",
+    "native": "Polynésie française",
+    "capital": "Papeetē",
+    "continents": ["OC"],
+    "callingCodes": [689],
+    "currencies": ["XPF"],
+    "languages": ["fr"],
+    "timezones": ["Pacific/Gambier", "Pacific/Marquesas", "Pacific/Tahiti"],
+    "emoji": "🇵🇫",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pf.png",
+      "svg": "https://flagcdn.com/pf.svg"
+    }
+  },
+  "PG": {
+    "name": "Papua New Guinea",
+    "native": "Papua Niugini",
+    "capital": "Port Moresby",
+    "continents": ["OC"],
+    "callingCodes": [675],
+    "currencies": ["PGK"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Bougainville", "Pacific/Port_Moresby"],
+    "emoji": "🇵🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pg.png",
+      "svg": "https://flagcdn.com/pg.svg"
+    }
+  },
+  "PH": {
+    "name": "Philippines",
+    "native": "Pilipinas",
+    "capital": "Manila",
+    "continents": ["AS"],
+    "callingCodes": [63],
+    "currencies": ["PHP"],
+    "languages": ["en"],
+    "timezones": ["Asia/Manila"],
+    "emoji": "🇵🇭",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ph.png",
+      "svg": "https://flagcdn.com/ph.svg"
+    }
+  },
+  "PK": {
+    "name": "Pakistan",
+    "native": "Pakistan",
+    "capital": "Islamabad",
+    "continents": ["AS"],
+    "callingCodes": [92],
+    "currencies": ["PKR"],
+    "languages": ["en", "ur"],
+    "timezones": ["Asia/Karachi"],
+    "emoji": "🇵🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pk.png",
+      "svg": "https://flagcdn.com/pk.svg"
+    }
+  },
+  "PL": {
+    "name": "Poland",
+    "native": "Polska",
+    "capital": "Warsaw",
+    "continents": ["EU"],
+    "callingCodes": [48],
+    "currencies": ["PLN"],
+    "languages": ["pl"],
+    "timezones": ["Europe/Warsaw"],
+    "emoji": "🇵🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pl.png",
+      "svg": "https://flagcdn.com/pl.svg"
+    }
+  },
+  "PM": {
+    "name": "Saint Pierre and Miquelon",
+    "native": "Saint-Pierre-et-Miquelon",
+    "capital": "Saint-Pierre",
+    "continents": ["NA"],
+    "callingCodes": [508],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["America/Miquelon"],
+    "emoji": "🇵🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pm.png",
+      "svg": "https://flagcdn.com/pm.svg"
+    }
+  },
+  "PN": {
+    "name": "Pitcairn Islands",
+    "native": "Pitcairn Islands",
+    "capital": "Adamstown",
+    "continents": ["OC"],
+    "callingCodes": [64],
+    "currencies": ["NZD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Pitcairn"],
+    "emoji": "🇵🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pn.png",
+      "svg": "https://flagcdn.com/pn.svg"
+    }
+  },
+  "PR": {
+    "name": "Puerto Rico",
+    "native": "Puerto Rico",
+    "capital": "San Juan",
+    "continents": ["NA"],
+    "callingCodes": [1787, 1939],
+    "currencies": ["USD"],
+    "languages": ["es", "en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇵🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pr.png",
+      "svg": "https://flagcdn.com/pr.svg"
+    }
+  },
+  "PS": {
+    "name": "Palestine",
+    "native": "فلسطين",
+    "capital": "Ramallah",
+    "continents": ["AS"],
+    "callingCodes": [970],
+    "currencies": ["ILS"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Gaza", "Asia/Hebron"],
+    "emoji": "🇵🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ps.png",
+      "svg": "https://flagcdn.com/ps.svg"
+    }
+  },
+  "PT": {
+    "name": "Portugal",
+    "native": "Portugal",
+    "capital": "Lisbon",
+    "continents": ["EU"],
+    "callingCodes": [351],
+    "currencies": ["EUR"],
+    "languages": ["pt"],
+    "timezones": ["Atlantic/Azores", "Atlantic/Madeira", "Europe/Lisbon"],
+    "emoji": "🇵🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pt.png",
+      "svg": "https://flagcdn.com/pt.svg"
+    }
+  },
+  "PW": {
+    "name": "Palau",
+    "native": "Palau",
+    "capital": "Ngerulmud",
+    "continents": ["OC"],
+    "callingCodes": [680],
+    "currencies": ["USD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Palau"],
+    "emoji": "🇵🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/pw.png",
+      "svg": "https://flagcdn.com/pw.svg"
+    }
+  },
+  "PY": {
+    "name": "Paraguay",
+    "native": "Paraguay",
+    "capital": "Asunción",
+    "continents": ["SA"],
+    "callingCodes": [595],
+    "currencies": ["PYG"],
+    "languages": ["es", "gn"],
+    "timezones": ["America/Asuncion"],
+    "emoji": "🇵🇾",
+    "flag": {
+      "png": "https://flagcdn.com/w320/py.png",
+      "svg": "https://flagcdn.com/py.svg"
+    }
+  },
+  "QA": {
+    "name": "Qatar",
+    "native": "قطر",
+    "capital": "Doha",
+    "continents": ["AS"],
+    "callingCodes": [974],
+    "currencies": ["QAR"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Qatar"],
+    "emoji": "🇶🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/qa.png",
+      "svg": "https://flagcdn.com/qa.svg"
+    }
+  },
+  "RE": {
+    "name": "Reunion",
+    "native": "La Réunion",
+    "capital": "Saint-Denis",
+    "continents": ["AF"],
+    "callingCodes": [262],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["Asia/Dubai"],
+    "emoji": "🇷🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/re.png",
+      "svg": "https://flagcdn.com/re.svg"
+    }
+  },
+  "RO": {
+    "name": "Romania",
+    "native": "România",
+    "capital": "Bucharest",
+    "continents": ["EU"],
+    "callingCodes": [40],
+    "currencies": ["RON"],
+    "languages": ["ro"],
+    "timezones": ["Europe/Bucharest"],
+    "emoji": "🇷🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ro.png",
+      "svg": "https://flagcdn.com/ro.svg"
+    }
+  },
+  "RS": {
+    "name": "Serbia",
+    "native": "Србија",
+    "capital": "Belgrade",
+    "continents": ["EU"],
+    "callingCodes": [381],
+    "currencies": ["RSD"],
+    "languages": ["sr"],
+    "timezones": ["Europe/Belgrade"],
+    "emoji": "🇷🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/rs.png",
+      "svg": "https://flagcdn.com/rs.svg"
+    }
+  },
+  "RU": {
+    "name": "Russia",
+    "native": "Россия",
+    "capital": "Moscow",
+    "continents": ["AS", "EU"],
+    "callingCodes": [7],
+    "currencies": ["RUB"],
+    "languages": ["ru"],
+    "timezones": ["Asia/Anadyr", "Asia/Barnaul", "Asia/Chita", "Asia/Irkutsk", "Asia/Kamchatka", "Asia/Khandyga", "Asia/Krasnoyarsk", "Asia/Magadan", "Asia/Novokuznetsk", "Asia/Novosibirsk", "Asia/Omsk", "Asia/Sakhalin", "Asia/Srednekolymsk", "Asia/Tomsk", "Asia/Ust-Nera", "Asia/Vladivostok", "Asia/Yakutsk", "Asia/Yekaterinburg", "Europe/Astrakhan", "Europe/Kaliningrad", "Europe/Kirov", "Europe/Moscow", "Europe/Samara", "Europe/Saratov", "Europe/Simferopol", "Europe/Ulyanovsk", "Europe/Volgograd"],
+    "emoji": "🇷🇺",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ru.png",
+      "svg": "https://flagcdn.com/ru.svg"
+    }
+  },
+  "RW": {
+    "name": "Rwanda",
+    "native": "Rwanda",
+    "capital": "Kigali",
+    "continents": ["AF"],
+    "callingCodes": [250],
+    "currencies": ["RWF"],
+    "languages": ["rw", "en", "fr"],
+    "timezones": ["Africa/Maputo"],
+    "emoji": "🇷🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/rw.png",
+      "svg": "https://flagcdn.com/rw.svg"
+    }
+  },
+  "SA": {
+    "name": "Saudi Arabia",
+    "native": "العربية السعودية",
+    "capital": "Riyadh",
+    "continents": ["AS"],
+    "callingCodes": [966],
+    "currencies": ["SAR"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Riyadh"],
+    "emoji": "🇸🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sa.png",
+      "svg": "https://flagcdn.com/sa.svg"
+    }
+  },
+  "SB": {
+    "name": "Solomon Islands",
+    "native": "Solomon Islands",
+    "capital": "Honiara",
+    "continents": ["OC"],
+    "callingCodes": [677],
+    "currencies": ["SBD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Guadalcanal"],
+    "emoji": "🇸🇧",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sb.png",
+      "svg": "https://flagcdn.com/sb.svg"
+    }
+  },
+  "SC": {
+    "name": "Seychelles",
+    "native": "Seychelles",
+    "capital": "Victoria",
+    "continents": ["AF"],
+    "callingCodes": [248],
+    "currencies": ["SCR"],
+    "languages": ["fr", "en"],
+    "timezones": ["Asia/Dubai"],
+    "emoji": "🇸🇨",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sc.png",
+      "svg": "https://flagcdn.com/sc.svg"
+    }
+  },
+  "SD": {
+    "name": "Sudan",
+    "native": "السودان",
+    "capital": "Khartoum",
+    "continents": ["AF"],
+    "callingCodes": [249],
+    "currencies": ["SDG"],
+    "languages": ["ar", "en"],
+    "timezones": ["Africa/Khartoum"],
+    "emoji": "🇸🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ss.png",
+      "svg": "https://flagcdn.com/ss.svg"
+    }
+  },
+  "SE": {
+    "name": "Sweden",
+    "native": "Sverige",
+    "capital": "Stockholm",
+    "continents": ["EU"],
+    "callingCodes": [46],
+    "currencies": ["SEK"],
+    "languages": ["sv"],
+    "timezones": ["Europe/Berlin"],
+    "emoji": "🇸🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/se.png",
+      "svg": "https://flagcdn.com/se.svg"
+    }
+  },
+  "SG": {
+    "name": "Singapore",
+    "native": "Singapore",
+    "capital": "Singapore",
+    "continents": ["AS"],
+    "callingCodes": [65],
+    "currencies": ["SGD"],
+    "languages": ["en", "ms", "ta", "zh"],
+    "timezones": ["Asia/Singapore"],
+    "emoji": "🇸🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sg.png",
+      "svg": "https://flagcdn.com/sg.svg"
+    }
+  },
+  "SH": {
+    "name": "Saint Helena",
+    "native": "Saint Helena",
+    "capital": "Jamestown",
+    "continents": ["AF"],
+    "callingCodes": [290],
+    "currencies": ["SHP"],
+    "languages": ["en"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇸🇭",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sh.png",
+      "svg": "https://flagcdn.com/sh.svg"
+    }
+  },
+  "SI": {
+    "name": "Slovenia",
+    "native": "Slovenija",
+    "capital": "Ljubljana",
+    "continents": ["EU"],
+    "callingCodes": [386],
+    "currencies": ["EUR"],
+    "languages": ["sl"],
+    "timezones": ["Europe/Belgrade"],
+    "emoji": "🇸🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/si.png",
+      "svg": "https://flagcdn.com/si.svg"
+    }
+  },
+  "SJ": {
+    "name": "Svalbard and Jan Mayen",
+    "native": "Svalbard og Jan Mayen",
+    "capital": "Longyearbyen",
+    "continents": ["EU"],
+    "callingCodes": [4779],
+    "currencies": ["NOK"],
+    "languages": ["no"],
+    "timezones": ["Europe/Berlin"],
+    "emoji": "🇸🇯",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sj.png",
+      "svg": "https://flagcdn.com/sj.svg"
+    }
+  },
+  "SK": {
+    "name": "Slovakia",
+    "native": "Slovensko",
+    "capital": "Bratislava",
+    "continents": ["EU"],
+    "callingCodes": [421],
+    "currencies": ["EUR"],
+    "languages": ["sk"],
+    "timezones": ["Europe/Prague"],
+    "emoji": "🇸🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sk.png",
+      "svg": "https://flagcdn.com/sk.svg"
+    }
+  },
+  "SL": {
+    "name": "Sierra Leone",
+    "native": "Sierra Leone",
+    "capital": "Freetown",
+    "continents": ["AF"],
+    "callingCodes": [232],
+    "currencies": ["SLL"],
+    "languages": ["en"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇸🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sl.png",
+      "svg": "https://flagcdn.com/sl.svg"
+    }
+  },
+  "SM": {
+    "name": "San Marino",
+    "native": "San Marino",
+    "capital": "City of San Marino",
+    "continents": ["EU"],
+    "callingCodes": [378],
+    "currencies": ["EUR"],
+    "languages": ["it"],
+    "timezones": ["Europe/Rome"],
+    "emoji": "🇸🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sm.png",
+      "svg": "https://flagcdn.com/sm.svg"
+    }
+  },
+  "SN": {
+    "name": "Senegal",
+    "native": "Sénégal",
+    "capital": "Dakar",
+    "continents": ["AF"],
+    "callingCodes": [221],
+    "currencies": ["XOF"],
+    "languages": ["fr"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇸🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sn.png",
+      "svg": "https://flagcdn.com/sn.svg"
+    }
+  },
+  "SO": {
+    "name": "Somalia",
+    "native": "Soomaaliya",
+    "capital": "Mogadishu",
+    "continents": ["AF"],
+    "callingCodes": [252],
+    "currencies": ["SOS"],
+    "languages": ["so", "ar"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇸🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/so.png",
+      "svg": "https://flagcdn.com/so.svg"
+    }
+  },
+  "SR": {
+    "name": "Suriname",
+    "native": "Suriname",
+    "capital": "Paramaribo",
+    "continents": ["SA"],
+    "callingCodes": [597],
+    "currencies": ["SRD"],
+    "languages": ["nl"],
+    "timezones": ["America/Paramaribo"],
+    "emoji": "🇸🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sr.png",
+      "svg": "https://flagcdn.com/sr.svg"
+    }
+  },
+  "SS": {
+    "name": "South Sudan",
+    "native": "South Sudan",
+    "capital": "Juba",
+    "continents": ["AF"],
+    "callingCodes": [211],
+    "currencies": ["SSP"],
+    "languages": ["en"],
+    "timezones": ["Africa/Juba"],
+    "emoji": "🇸🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ss.png",
+      "svg": "https://flagcdn.com/ss.svg"
+    }
+  },
+  "ST": {
+    "name": "Sao Tome and Principe",
+    "native": "São Tomé e Príncipe",
+    "capital": "São Tomé",
+    "continents": ["AF"],
+    "callingCodes": [239],
+    "currencies": ["STN"],
+    "languages": ["pt"],
+    "timezones": ["Africa/Sao_Tome"],
+    "emoji": "🇸🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/st.png",
+      "svg": "https://flagcdn.com/st.svg"
+    }
+  },
+  "SV": {
+    "name": "El Salvador",
+    "native": "El Salvador",
+    "capital": "San Salvador",
+    "continents": ["NA"],
+    "callingCodes": [503],
+    "currencies": ["SVC", "USD"],
+    "languages": ["es"],
+    "timezones": ["America/El_Salvador"],
+    "emoji": "🇸🇻",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sv.png",
+      "svg": "https://flagcdn.com/sv.svg"
+    }
+  },
+  "SX": {
+    "name": "Sint Maarten",
+    "native": "Sint Maarten",
+    "capital": "Philipsburg",
+    "continents": ["NA"],
+    "callingCodes": [1721],
+    "currencies": ["ANG"],
+    "languages": ["nl", "en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇸🇽",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sx.png",
+      "svg": "https://flagcdn.com/sx.svg"
+    }
+  },
+  "SY": {
+    "name": "Syria",
+    "native": "سوريا",
+    "capital": "Damascus",
+    "continents": ["AS"],
+    "callingCodes": [963],
+    "currencies": ["SYP"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Damascus"],
+    "emoji": "🇸🇾",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sy.png",
+      "svg": "https://flagcdn.com/sy.svg"
+    }
+  },
+  "SZ": {
+    "name": "Eswatini",
+    "native": "Eswatini",
+    "capital": "Lobamba",
+    "continents": ["AF"],
+    "callingCodes": [268],
+    "currencies": ["SZL"],
+    "languages": ["en", "ss"],
+    "timezones": ["Africa/Johannesburg"],
+    "emoji": "🇸🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/sz.png",
+      "svg": "https://flagcdn.com/sz.svg"
+    }
+  },
+  "TC": {
+    "name": "Turks and Caicos Islands",
+    "native": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
+    "continents": ["NA"],
+    "callingCodes": [1649],
+    "currencies": ["USD"],
+    "languages": ["en"],
+    "timezones": ["America/Grand_Turk"],
+    "emoji": "🇹🇨",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tc.png",
+      "svg": "https://flagcdn.com/tc.svg"
+    }
+  },
+  "TD": {
+    "name": "Chad",
+    "native": "Tchad",
+    "capital": "N'Djamena",
+    "continents": ["AF"],
+    "callingCodes": [235],
+    "currencies": ["XAF"],
+    "languages": ["fr", "ar"],
+    "timezones": ["Africa/Ndjamena"],
+    "emoji": "🇹🇩",
+    "flag": {
+      "png": "https://flagcdn.com/w320/td.png",
+      "svg": "https://flagcdn.com/td.svg"
+    }
+  },
+  "TF": {
+    "name": "French Southern Territories",
+    "native": "Territoire des Terres australes et antarctiques fr",
+    "capital": "Port-aux-Français",
+    "continents": ["AN"],
+    "callingCodes": [262],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["Asia/Dubai", "Indian/Maldives"],
+    "emoji": "🇹🇫",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tf.png",
+      "svg": "https://flagcdn.com/tf.svg"
+    }
+  },
+  "TG": {
+    "name": "Togo",
+    "native": "Togo",
+    "capital": "Lomé",
+    "continents": ["AF"],
+    "callingCodes": [228],
+    "currencies": ["XOF"],
+    "languages": ["fr"],
+    "timezones": ["Africa/Abidjan"],
+    "emoji": "🇹🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tg.png",
+      "svg": "https://flagcdn.com/tg.svg"
+    }
+  },
+  "TH": {
+    "name": "Thailand",
+    "native": "ประเทศไทย",
+    "capital": "Bangkok",
+    "continents": ["AS"],
+    "callingCodes": [66],
+    "currencies": ["THB"],
+    "languages": ["th"],
+    "timezones": ["Asia/Bangkok"],
+    "emoji": "🇹🇭",
+    "flag": {
+      "png": "https://flagcdn.com/w320/th.png",
+      "svg": "https://flagcdn.com/th.svg"
+    }
+  },
+  "TJ": {
+    "name": "Tajikistan",
+    "native": "Тоҷикистон",
+    "capital": "Dushanbe",
+    "continents": ["AS"],
+    "callingCodes": [992],
+    "currencies": ["TJS"],
+    "languages": ["tg", "ru"],
+    "timezones": ["Asia/Dushanbe"],
+    "emoji": "🇹🇯",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tj.png",
+      "svg": "https://flagcdn.com/tj.svg"
+    }
+  },
+  "TK": {
+    "name": "Tokelau",
+    "native": "Tokelau",
+    "capital": "Fakaofo",
+    "continents": ["OC"],
+    "callingCodes": [690],
+    "currencies": ["NZD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Fakaofo"],
+    "emoji": "🇹🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tk.png",
+      "svg": "https://flagcdn.com/tk.svg"
+    }
+  },
+  "TL": {
+    "name": "East Timor",
+    "native": "Timor-Leste",
+    "capital": "Dili",
+    "continents": ["OC"],
+    "callingCodes": [670],
+    "currencies": ["USD"],
+    "languages": ["pt"],
+    "timezones": ["Asia/Dili"],
+    "emoji": "🇹🇱",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tl.png",
+      "svg": "https://flagcdn.com/tl.svg"
+    }
+  },
+  "TM": {
+    "name": "Turkmenistan",
+    "native": "Türkmenistan",
+    "capital": "Ashgabat",
+    "continents": ["AS"],
+    "callingCodes": [993],
+    "currencies": ["TMT"],
+    "languages": ["tk", "ru"],
+    "timezones": ["Asia/Ashgabat"],
+    "emoji": "🇹🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tm.png",
+      "svg": "https://flagcdn.com/tm.svg"
+    }
+  },
+  "TN": {
+    "name": "Tunisia",
+    "native": "تونس",
+    "capital": "Tunis",
+    "continents": ["AF"],
+    "callingCodes": [216],
+    "currencies": ["TND"],
+    "languages": ["ar"],
+    "timezones": ["Africa/Tunis"],
+    "emoji": "🇹🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tn.png",
+      "svg": "https://flagcdn.com/tn.svg"
+    }
+  },
+  "TO": {
+    "name": "Tonga",
+    "native": "Tonga",
+    "capital": "Nuku'alofa",
+    "continents": ["OC"],
+    "callingCodes": [676],
+    "currencies": ["TOP"],
+    "languages": ["en", "to"],
+    "timezones": ["Pacific/Tongatapu"],
+    "emoji": "🇹🇴",
+    "flag": {
+      "png": "https://flagcdn.com/w320/to.png",
+      "svg": "https://flagcdn.com/to.svg"
+    }
+  },
+  "TR": {
+    "name": "Turkey",
+    "native": "Türkiye",
+    "capital": "Ankara",
+    "continents": ["AS", "EU"],
+    "callingCodes": [90],
+    "currencies": ["TRY"],
+    "languages": ["tr"],
+    "timezones": ["Europe/Istanbul"],
+    "emoji": "🇹🇷",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tr.png",
+      "svg": "https://flagcdn.com/tr.svg"
+    }
+  },
+  "TT": {
+    "name": "Trinidad and Tobago",
+    "native": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "continents": ["NA"],
+    "callingCodes": [1868],
+    "currencies": ["TTD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇹🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tt.png",
+      "svg": "https://flagcdn.com/tt.svg"
+    }
+  },
+  "TV": {
+    "name": "Tuvalu",
+    "native": "Tuvalu",
+    "capital": "Funafuti",
+    "continents": ["OC"],
+    "callingCodes": [688],
+    "currencies": ["AUD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Tarawa"],
+    "emoji": "🇹🇻",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tv.png",
+      "svg": "https://flagcdn.com/tv.svg"
+    }
+  },
+  "TW": {
+    "name": "Taiwan",
+    "native": "臺灣",
+    "capital": "Taipei",
+    "continents": ["AS"],
+    "callingCodes": [886],
+    "currencies": ["TWD"],
+    "languages": ["zh"],
+    "timezones": ["Asia/Taipei"],
+    "emoji": "🇹🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tw.png",
+      "svg": "https://flagcdn.com/tw.svg"
+    }
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "native": "Tanzania",
+    "capital": "Dodoma",
+    "continents": ["AF"],
+    "callingCodes": [255],
+    "currencies": ["TZS"],
+    "languages": ["sw", "en"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇹🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/tz.png",
+      "svg": "https://flagcdn.com/tz.svg"
+    }
+  },
+  "UA": {
+    "name": "Ukraine",
+    "native": "Україна",
+    "capital": "Kyiv",
+    "continents": ["EU"],
+    "callingCodes": [380],
+    "currencies": ["UAH"],
+    "languages": ["uk"],
+    "timezones": ["Europe/Kyiv", "Europe/Simferopol"],
+    "emoji": "🇺🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ua.png",
+      "svg": "https://flagcdn.com/ua.svg"
+    }
+  },
+  "UG": {
+    "name": "Uganda",
+    "native": "Uganda",
+    "capital": "Kampala",
+    "continents": ["AF"],
+    "callingCodes": [256],
+    "currencies": ["UGX"],
+    "languages": ["en", "sw"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇺🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ug.png",
+      "svg": "https://flagcdn.com/ug.svg"
+    }
+  },
+  "UM": {
+    "name": "U.S. Minor Outlying Islands",
+    "native": "United States Minor Outlying Islands",
+    "capital": "",
+    "continents": ["OC"],
+    "callingCodes": [1],
+    "currencies": ["USD"],
+    "languages": ["en"],
+    "timezones": ["Pacific/Pago_Pago", "Pacific/Tarawa"],
+    "emoji": "🇺🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/um.png",
+      "svg": "https://flagcdn.com/um.svg"
+    }
+  },
+  "US": {
+    "name": "United States",
+    "native": "United States",
+    "capital": "Washington D.C.",
+    "continents": ["NA"],
+    "callingCodes": [1],
+    "currencies": ["USD", "USN"],
+    "languages": ["en"],
+    "timezones": ["America/Adak", "America/Anchorage", "America/Boise", "America/Chicago", "America/Denver", "America/Detroit", "America/Indiana/Indianapolis", "America/Indiana/Knox", "America/Indiana/Marengo", "America/Indiana/Petersburg", "America/Indiana/Tell_City", "America/Indiana/Vevay", "America/Indiana/Vincennes", "America/Indiana/Winamac", "America/Juneau", "America/Kentucky/Louisville", "America/Kentucky/Monticello", "America/Los_Angeles", "America/Menominee", "America/Metlakatla", "America/New_York", "America/Nome", "America/North_Dakota/Beulah", "America/North_Dakota/Center", "America/North_Dakota/New_Salem", "America/Phoenix", "America/Sitka", "America/Yakutat", "Pacific/Honolulu"],
+    "emoji": "🇺🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/us.png",
+      "svg": "https://flagcdn.com/us.svg"
+    }
+  },
+  "UY": {
+    "name": "Uruguay",
+    "native": "Uruguay",
+    "capital": "Montevideo",
+    "continents": ["SA"],
+    "callingCodes": [598],
+    "currencies": ["UYI", "UYU"],
+    "languages": ["es"],
+    "timezones": ["America/Montevideo"],
+    "emoji": "🇺🇾",
+    "flag": {
+      "png": "https://flagcdn.com/w320/uy.png",
+      "svg": "https://flagcdn.com/uy.svg"
+    }
+  },
+  "UZ": {
+    "name": "Uzbekistan",
+    "native": "O'zbekiston",
+    "capital": "Tashkent",
+    "continents": ["AS"],
+    "callingCodes": [998],
+    "currencies": ["UZS"],
+    "languages": ["uz", "ru"],
+    "timezones": ["Asia/Samarkand", "Asia/Tashkent"],
+    "emoji": "🇺🇿",
+    "flag": {
+      "png": "https://flagcdn.com/w320/uz.png",
+      "svg": "https://flagcdn.com/uz.svg"
+    }
+  },
+  "VA": {
+    "name": "Vatican City",
+    "native": "Vaticano",
+    "capital": "Vatican City",
+    "continents": ["EU"],
+    "callingCodes": [379],
+    "currencies": ["EUR"],
+    "languages": ["it", "la"],
+    "timezones": ["Europe/Rome"],
+    "emoji": "🇻🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/va.png",
+      "svg": "https://flagcdn.com/va.svg"
+    }
+  },
+  "VC": {
+    "name": "Saint Vincent and the Grenadines",
+    "native": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "continents": ["NA"],
+    "callingCodes": [1784],
+    "currencies": ["XCD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇻🇨",
+    "flag": {
+      "png": "https://flagcdn.com/w320/vc.png",
+      "svg": "https://flagcdn.com/vc.svg"
+    }
+  },
+  "VE": {
+    "name": "Venezuela",
+    "native": "Venezuela",
+    "capital": "Caracas",
+    "continents": ["SA"],
+    "callingCodes": [58],
+    "currencies": ["VES"],
+    "languages": ["es"],
+    "timezones": ["America/Caracas"],
+    "emoji": "🇻🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ve.png",
+      "svg": "https://flagcdn.com/ve.svg"
+    }
+  },
+  "VG": {
+    "name": "British Virgin Islands",
+    "native": "British Virgin Islands",
+    "capital": "Road Town",
+    "continents": ["NA"],
+    "callingCodes": [1284],
+    "currencies": ["USD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇻🇬",
+    "flag": {
+      "png": "https://flagcdn.com/w320/vg.png",
+      "svg": "https://flagcdn.com/vg.svg"
+    }
+  },
+  "VI": {
+    "name": "U.S. Virgin Islands",
+    "native": "United States Virgin Islands",
+    "capital": "Charlotte Amalie",
+    "continents": ["NA"],
+    "callingCodes": [1340],
+    "currencies": ["USD"],
+    "languages": ["en"],
+    "timezones": ["America/Puerto_Rico"],
+    "emoji": "🇻🇮",
+    "flag": {
+      "png": "https://flagcdn.com/w320/vi.png",
+      "svg": "https://flagcdn.com/vi.svg"
+    }
+  },
+  "VN": {
+    "name": "Vietnam",
+    "native": "Việt Nam",
+    "capital": "Hanoi",
+    "continents": ["AS"],
+    "callingCodes": [84],
+    "currencies": ["VND"],
+    "languages": ["vi"],
+    "timezones": ["Asia/Bangkok", "Asia/Ho_Chi_Minh"],
+    "emoji": "🇻🇳",
+    "flag": {
+      "png": "https://flagcdn.com/w320/vn.png",
+      "svg": "https://flagcdn.com/vn.svg"
+    }
+  },
+  "VU": {
+    "name": "Vanuatu",
+    "native": "Vanuatu",
+    "capital": "Port Vila",
+    "continents": ["OC"],
+    "callingCodes": [678],
+    "currencies": ["VUV"],
+    "languages": ["bi", "en", "fr"],
+    "timezones": ["Pacific/Efate"],
+    "emoji": "🇻🇺",
+    "flag": {
+      "png": "https://flagcdn.com/w320/vu.png",
+      "svg": "https://flagcdn.com/vu.svg"
+    }
+  },
+  "WF": {
+    "name": "Wallis and Futuna",
+    "native": "Wallis et Futuna",
+    "capital": "Mata-Utu",
+    "continents": ["OC"],
+    "callingCodes": [681],
+    "currencies": ["XPF"],
+    "languages": ["fr"],
+    "timezones": ["Pacific/Tarawa"],
+    "emoji": "🇼🇫",
+    "flag": {
+      "png": "https://flagcdn.com/w320/wf.png",
+      "svg": "https://flagcdn.com/wf.svg"
+    }
+  },
+  "WS": {
+    "name": "Samoa",
+    "native": "Samoa",
+    "capital": "Apia",
+    "continents": ["OC"],
+    "callingCodes": [685],
+    "currencies": ["WST"],
+    "languages": ["sm", "en"],
+    "timezones": ["Pacific/Apia"],
+    "emoji": "🇦🇸",
+    "flag": {
+      "png": "https://flagcdn.com/w320/as.png",
+      "svg": "https://flagcdn.com/as.svg"
+    }
+  },
+  "XK": {
+    "name": "Kosovo",
+    "native": "Republika e Kosovës",
+    "capital": "Pristina",
+    "continents": ["EU"],
+    "callingCodes": [377, 381, 383, 386],
+    "currencies": ["EUR"],
+    "languages": ["sq", "sr"],
+    "timezones": [],
+    "emoji": "🇽🇰",
+    "flag": {
+      "png": "https://flagcdn.com/w320/xk.png",
+      "svg": "https://flagcdn.com/xk.svg"
+    }
+  },
+  "YE": {
+    "name": "Yemen",
+    "native": "اليَمَن",
+    "capital": "Sana'a",
+    "continents": ["AS"],
+    "callingCodes": [967],
+    "currencies": ["YER"],
+    "languages": ["ar"],
+    "timezones": ["Asia/Riyadh"],
+    "emoji": "🇾🇪",
+    "flag": {
+      "png": "https://flagcdn.com/w320/ye.png",
+      "svg": "https://flagcdn.com/ye.svg"
+    }
+  },
+  "YT": {
+    "name": "Mayotte",
+    "native": "Mayotte",
+    "capital": "Mamoudzou",
+    "continents": ["AF"],
+    "callingCodes": [262],
+    "currencies": ["EUR"],
+    "languages": ["fr"],
+    "timezones": ["Africa/Nairobi"],
+    "emoji": "🇾🇹",
+    "flag": {
+      "png": "https://flagcdn.com/w320/yt.png",
+      "svg": "https://flagcdn.com/yt.svg"
+    }
+  },
+  "ZA": {
+    "name": "South Africa",
+    "native": "South Africa",
+    "capital": "Pretoria",
+    "continents": ["AF"],
+    "callingCodes": [27],
+    "currencies": ["ZAR"],
+    "languages": ["af", "en", "nr", "st", "ss", "tn", "ts", "ve", "xh", "zu"],
+    "timezones": ["Africa/Johannesburg"],
+    "emoji": "🇿🇦",
+    "flag": {
+      "png": "https://flagcdn.com/w320/za.png",
+      "svg": "https://flagcdn.com/za.svg"
+    }
+  },
+  "ZM": {
+    "name": "Zambia",
+    "native": "Zambia",
+    "capital": "Lusaka",
+    "continents": ["AF"],
+    "callingCodes": [260],
+    "currencies": ["ZMW"],
+    "languages": ["en"],
+    "timezones": ["Africa/Maputo"],
+    "emoji": "🇿🇲",
+    "flag": {
+      "png": "https://flagcdn.com/w320/zm.png",
+      "svg": "https://flagcdn.com/zm.svg"
+    }
+  },
+  "ZW": {
+    "name": "Zimbabwe",
+    "native": "Zimbabwe",
+    "capital": "Harare",
+    "continents": ["AF"],
+    "callingCodes": [263],
+    "currencies": ["USD", "ZAR", "BWP", "GBP", "AUD", "CNY", "INR", "JPY"],
+    "languages": ["en", "sn", "nd"],
+    "timezones": ["Africa/Maputo"],
+    "emoji": "🇿🇼",
+    "flag": {
+      "png": "https://flagcdn.com/w320/zw.png",
+      "svg": "https://flagcdn.com/zw.svg"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "locale-lists-lib",
+  "version": "1.0.0",
+  "description": "Lists & utility functions for Continents, Countries, Currencies, Languages, Language Tags, and Timezones.",
+  "keywords": [
+    "ISO 3166-1",
+    "ISO 4217",
+    "ISO 639-1",
+    "IANA tz Database",
+    "IETF language tags",
+    "BCP 47 language tags",
+    "i18n",
+    "locale",
+    "continents",
+    "countries",
+    "currencies",
+    "languages",
+    "language tags",
+    "timezones"
+  ],
+  "author": {
+    "name": "Andy Yu",
+    "email": "hi@andyyu.dev",
+    "url": "https://github.com/andyyudev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/andyyudev/locale-lists-lib",
+  "repository": {
+    "url": "https://github.com/andyyudev/locale-lists-lib"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup ./src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
