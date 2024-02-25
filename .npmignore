@@ -1,7 +1,10 @@
 /src
 /node_modules
 
+.changeset/
+.github/
 .env
 .DS_Store
+.vscode
 
 tsconfig.json
