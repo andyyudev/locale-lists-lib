@@ -1527,7 +1527,7 @@ th_TH;
 
 # Contact
 
-Feel free to contact me for any questions or issues.
+Feel free to contact me for any questions or issues at [hi@andyyu.dev](mailto:hi@andyyu.dev).
 
 # Licensing
 
