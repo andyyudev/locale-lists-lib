@@ -1,6 +1,6 @@
 # locale-lists-lib
 
-### Lists & utility functions for Continents, Countries, Currencies, Languages, and Timezones.
+### Lists & utility functions for Continents, Countries, Currencies, Timezones, Languages, and Language Tags.
 
 While many packages offer the ISO lists found in this package, my goal was to create a single package that encompasses all these lists with a consistent data structure and utility functions. This eliminates the need to install multiple packages and concern over data inconsistency.
 
@@ -19,8 +19,10 @@ Designed for modern web development, this package provides the most current and 
 - <strong>Currencies:</strong> `ISO 4217` - https://en.wikipedia.org/wiki/ISO_4217 <br />
 - <strong>Languages:</strong> `ISO 639-1` - https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes <br />
 - <strong>Timezones:</strong> `IANA tz database` - https://en.wikipedia.org/wiki/List_of_tz_database_time_zones <br />
-- <strong>Language Tags:</strong> `IETF BCP 47 language tags` - https://en.wikipedia.org/wiki/IETF_language_tag <br />
-  <br />
+- <strong>Language Tags:</strong> `IETF BCP 47 language tags (reference only)` - https://en.wikipedia.org/wiki/IETF_language_tag <br />
+
+> [!NOTE]
+> The language tags in this library has the full combination of countries + languages, plus unique language variations if available. i.e zh_CN, zh_TW, zh_HK. If there is a language tag detail that is not listed here, please contact me to update it.
 
 # Installation
 
@@ -56,11 +58,14 @@ import { getAllCountries, getCountries, getCountry } from "locale-lists-lib";
 // Currencies
 import { getAllCurrencies, getCurrencies, getCurrenciesByCountry, getCurrency } from "locale-lists-lib";
 
+// Timezones
+import { getAllTimezones, getTimezones, getTimezonesByCountry, getTimezone } from "locale-lists-lib";
+
 // Languages
 import { getAllLanguages, getLanguages, getLanguagesByCountry, getLanguage } from "locale-lists-lib";
 
-// Timezones
-import { getAllTimezones, getTimezones, getTimezonesByCountry, getTimezone } from "locale-lists-lib";
+// Language Tags
+import { getAllLanguageTags, getLanguageTags, getLanguageTagsByLanguage, getLanguageTagsByCountry, getLanguageTag } from "locale-lists-lib";
 ```
 
 ### Types
@@ -78,14 +83,16 @@ import type {
   TContinentKeys, 
   TCountryKeys, 
   TCurrencyKeys, 
-  TLanguageKeys, 
   TTimezoneKeys, 
+  TLanguageKeys, 
+  TLanguageTagKeys, 
   IContinent, 
   ICountry, 
+  ICountryFlag,
   ICurrency, 
-  ILanguage, 
   ITimezone, 
-  IFlag 
+  ILanguage, 
+  ILanguageTag, 
 } from "locale-lists-lib";
 ```
 <!-- prettier-ignore-end -->
@@ -119,7 +126,7 @@ Multiple records will return array of objects
   flag: {
     png: "https://flagcdn.com/w320/dk.png",
     svg: "https://flagcdn.com/dk.svg",
-  }, // ts: IFlag
+  }, // ts: ICountryFlag
 } // ts: ICountry
 ```
 
@@ -135,17 +142,6 @@ Multiple records will return array of objects
 ```
 
 ```js
-// Language
-{
-  code: "fr", // ts: TLanguageCode
-  name: "French",
-  native: "Français",
-  rtl: false,
-  countries: ["BE", "BF", "BI", "BJ", "BL", "CA", "CD", "CF", "CG", "CH", "CI", "CM", "DJ", "FR", "GA", "GF", "GG", "GN", "GP", "GQ", "HT", "JE", "KM", "LB", "LU", "MC", "MF", "MG", "ML", "MQ", "NC", "NE", "PF", "PM", "RE", "RW", "SC", "SN", "TD", "TF", "TG", "VU", "WF", "YT"], // ts: TCountryCode[]
-} // ts: ILanguage
-```
-
-```js
 // Timezone
 {
   code: "America/Los_Angeles", // ts: TTimezoneCode
@@ -158,6 +154,29 @@ Multiple records will return array of objects
   dstOffsetStr: "-07:00",
   withCountries: true,
 } // ts: ITimezone
+```
+
+```js
+// Language
+{
+  code: "fr", // ts: TLanguageCode
+  name: "French",
+  native: "Français",
+  rtl: false,
+  countries: ["BE", "BF", "BI", "BJ", "BL", "CA", "CD", "CF", "CG", "CH", "CI", "CM", "DJ", "FR", "GA", "GF", "GG", "GN", "GP", "GQ", "HT", "JE", "KM", "LB", "LU", "MC", "MF", "MG", "ML", "MQ", "NC", "NE", "PF", "PM", "RE", "RW", "SC", "SN", "TD", "TF", "TG", "VU", "WF", "YT"], // ts: TCountryCode[]
+} // ts: ILanguage
+```
+
+```js
+// Language Tag
+{
+  code: "en_US", // ts: TLanguageTagCode
+  name: "English (US)",
+  native: "English (US)",
+  language: "en", // ts: TLanguageCode
+  country: "US", // ts: TCountryCode
+  rtl: false,
+} // ts: ILanguageTag
 ```
 
 # API Reference
@@ -176,16 +195,23 @@ Multiple records will return array of objects
   - **[getCurrencies](#getcurrenciescurrencycodes-keys)**
   - **[getCurrenciesByCountry](#getcurrenciesbycountrycountrycode-keys)**
   - **[getCurrency](#getcurrencycurrencycode-keys)**
-- Languages
-  - **[getAllLanguages](#getalllanguageskeys)**
-  - **[getLanguages](#getlanguageslanguagecodes-keys)**
-  - **[getLanguagesByCountry](#getlanguagesbycountrycountrycode-keys)**
-  - **[getLanguage](#getlanguagelanguagecode-keys)**
 - Timezones
   - **[getAllTimezones](#getalltimezoneskeys)**
   - **[getTimezones](#gettimezonestimezonecodes-keys)**
   - **[getTimezonesByCountry](#gettimezonesbycountrycountrycode-keys)**
   - **[getTimezone](#gettimezonetimezonecode-keys)**
+- Languages
+  - **[getAllLanguages](#getalllanguageskeys)**
+  - **[getLanguages](#getlanguageslanguagecodes-keys)**
+  - **[getLanguagesByCountry](#getlanguagesbycountrycountrycode-keys)**
+  - **[getLanguage](#getlanguagelanguagecode-keys)**
+- Language Tags
+  - **[getAllLanguageTags](#getalllanguagetagskeys)**
+  - **[getLanguageTags](#getlanguagetagslanguagetagcodes-keys)**
+  - **[getLanguageTagsByLanguage](#getlanguagetagsbylanguagelanguagecode-keys)**
+  - **[getLanguageTagsByCountry](#getlanguagetagsbycountrycountrycode-keys)**
+  - **[getLanguageTag](#getlanguagetaglanguagetagcode-keys)**
+  - **[formatLanguageTagCode](#formatlanguagetagcodelanguagetagcode)**
 
 ## `getAllContinents([keys])`
 
@@ -239,8 +265,6 @@ const allContinents = getAllContinents(["name"]);
 ]
 ```
 
-</br>
-
 ## `getContinents([continentCodes], [keys])`
 
 ### Parameters
@@ -292,8 +316,6 @@ const selectedContinents = getContinents(["AN", "SA"], ["name"]);
 ];
 ```
 
-</br>
-
 ## `getContinentsByCountry(countryCode, [keys])`
 
 ### Parameters
@@ -344,8 +366,6 @@ const continentsInRU = getContinentsByCountry("RU", ["name"]);
   },
 ];
 ```
-
-</br>
 
 ## `getContinent(continentCode, [keys])`
 
@@ -461,8 +481,6 @@ const allCountries = getAllCountries(["name", "emoji"]);
 ]
 ```
 
-</br>
-
 ## `getCountries([countryCodes], [keys])`
 
 ### Parameters
@@ -537,8 +555,6 @@ const selectedCountries = getCountries(["DE", "GB"], ["name", "emoji"]);
   },
 ];
 ```
-
-</br>
 
 ## `getCountry(countryCode, [keys])`
 
@@ -648,8 +664,6 @@ const allCurrencies = getAllCurrencies(["name", "symbol"]);
 ]
 ```
 
-</br>
-
 ## `getCurrencies([currencyCodes], [keys])`
 
 ### Parameters
@@ -707,8 +721,6 @@ const selectedCurrencies = getCurrencies(["AUD", "BRL"], ["name", "symbol"]);
 ];
 ```
 
-</br>
-
 ## `getCurrenciesByCountry(countryCode, [keys])`
 
 ### Parameters
@@ -754,8 +766,6 @@ const currenciesInFR = getCurrenciesByCountry("FR", ["name", "symbol"]);
 ];
 ```
 
-</br>
-
 ## `getCurrency(currencyCode, [keys])`
 
 ### Parameters
@@ -794,213 +804,6 @@ const currencyJPY = getCurrency("JPY", ["name", "symbol"]);
   code: "JPY",
   name: "Japanese yen",
   symbol: "¥",
-}
-```
-
-## `getAllLanguages([keys])`
-
-### Parameters
-
-| Name | Required   | Type  | TS              |
-| ---- | ---------- | ----- | --------------- |
-| keys | `Optional` | Array | TLanguageKeys[] |
-
-### Return
-
-| Name      | Type  | TS          |
-| --------- | ----- | ----------- |
-| Languages | Array | ILanguage[] |
-
-### Examples
-
-```js
-const allLanguages = getAllLanguages();
-
-// console.log(allLanguages);
-[
-  {
-    code: "aa",
-    name: "Afar",
-    native: "Afar",
-    rtl: false,
-    countries: [],
-  },
-  {
-    code: "ab",
-    name: "Abkhazian",
-    native: "Аҧсуа",
-    rtl: false,
-    countries: [],
-  },
-  ...
-]
-```
-
-```js
-const allLanguages = getAllLanguages(["name", "native"]);
-
-// console.log(allLanguages)
-[
-  {
-    code: "aa",
-    name: "Afar",
-    native: "Afar",
-  },
-  {
-    code: "ab",
-    name: "Abkhazian",
-    native: "Аҧсуа",
-  },
-  ...
-]
-```
-
-</br>
-
-## `getLanguages([languageCodes], [keys])`
-
-### Parameters
-
-| Name          | Required   | Type  | TS              |
-| ------------- | ---------- | ----- | --------------- |
-| languageCodes | `Required` | Array | TLanguageCode[] |
-| keys          | `Optional` | Array | TLanguageKeys[] |
-
-### Return
-
-| Name      | Type  | TS          |
-| --------- | ----- | ----------- |
-| Languages | Array | ILanguage[] |
-
-### Examples
-
-```js
-const selectedLanguages = getLanguages(["es", "th"]);
-
-// console.log(selectedLanguages);
-[
-  {
-    code: "es",
-    name: "Spanish",
-    native: "Español",
-    rtl: false,
-    countries: ["AR", "BO", "BZ", "CL", "CO", "CR", "CU", "DO", "EC", "EH", "ES", "GQ", "GT", "GU", "HN", "MX", "NI", "PA", "PE", "PR", "PY", "SV", "UY", "VE"],
-  },
-  {
-    code: "th",
-    name: "Thai",
-    native: "ไทย / Phasa Thai",
-    rtl: false,
-    countries: ["TH"],
-  },
-];
-```
-
-```js
-const selectedLanguages = getLanguages(["es", "th"], ["name", "native"]);
-
-// console.log(selectedLanguages);
-[
-  {
-    code: "es",
-    name: "Spanish",
-    native: "Español",
-  },
-  {
-    code: "th",
-    name: "Thai",
-    native: "ไทย / Phasa Thai",
-  },
-];
-```
-
-</br>
-
-## `getLanguagesByCountry(countryCode, [keys])`
-
-### Parameters
-
-| Name        | Required   | Type   | TS              |
-| ----------- | ---------- | ------ | --------------- |
-| countryCode | `Required` | String | TCountryCode    |
-| keys        | `Optional` | Array  | TLanguageKeys[] |
-
-### Return
-
-| Name      | Type  | TS          |
-| --------- | ----- | ----------- |
-| Languages | Array | ILanguage[] |
-
-### Examples
-
-```js
-const languagesInSE = getLanguagesByCountry("SE");
-
-// console.log(languagesInSE);
-[
-  {
-    code: "sv",
-    name: "Swedish",
-    native: "Svenska",
-    rtl: false,
-    countries: ["AX", "FI", "SE"],
-  },
-];
-```
-
-```js
-const languagesInSE = getLanguagesByCountry("SE", ["name", "native"]);
-
-// console.log(languagesInSE);
-[
-  {
-    code: "sv",
-    name: "Swedish",
-    native: "Svenska",
-  },
-];
-```
-
-</br>
-
-## `getLanguage(languageCode, [keys])`
-
-### Parameters
-
-| Name         | Required   | Type   | TS              |
-| ------------ | ---------- | ------ | --------------- |
-| languageCode | `Required` | String | TLanguageCode   |
-| keys         | `Optional` | Array  | TLanguageKeys[] |
-
-### Return
-
-| Name     | Type   | TS        |
-| -------- | ------ | --------- |
-| Language | Object | ILanguage |
-
-### Examples
-
-```js
-const languageRO = getLanguage("ro");
-
-// console.log(languageRO);
-{
-  code: "ro",
-  name: "Romanian",
-  native: "Română",
-  rtl: false,
-  countries: ["MD", "RO"],
-}
-```
-
-```js
-const languageRO = getLanguage("ro", ["name", "native"]);
-
-// console.log(languageRO);
-{
-  code: "ro",
-  name: "Romanian",
-  native: "Română",
 }
 ```
 
@@ -1070,8 +873,6 @@ const allTimezones = getAllTimezones(["name", "label"]);
 ]
 ```
 
-</br>
-
 ## `getTimezones([timezoneCodes], [keys])`
 
 ### Parameters
@@ -1137,8 +938,6 @@ const selectedTimezones = getTimezones(["America/Cancun", "Asia/Dubai"], ["name"
 ];
 ```
 
-</br>
-
 ## `getTimezonesByCountry(countryCode, [keys])`
 
 ### Parameters
@@ -1188,8 +987,6 @@ const timezonesInTW = getTimezonesByCountry("TW", ["name", "label"]);
 ];
 ```
 
-</br>
-
 ## `getTimezone(timezoneCode, [keys])`
 
 ### Parameters
@@ -1234,6 +1031,502 @@ const timezoneAtlanticBermuda = getTimezone("Atlantic/Bermuda", ["name", "label"
   label: "Atlantic/Bermuda (GMT-04:00)",
 }
 ```
+
+## `getAllLanguages([keys])`
+
+### Parameters
+
+| Name | Required   | Type  | TS              |
+| ---- | ---------- | ----- | --------------- |
+| keys | `Optional` | Array | TLanguageKeys[] |
+
+### Return
+
+| Name      | Type  | TS          |
+| --------- | ----- | ----------- |
+| Languages | Array | ILanguage[] |
+
+### Examples
+
+```js
+const allLanguages = getAllLanguages();
+
+// console.log(allLanguages);
+[
+  {
+    code: "aa",
+    name: "Afar",
+    native: "Afar",
+    rtl: false,
+    countries: [],
+  },
+  {
+    code: "ab",
+    name: "Abkhazian",
+    native: "Аҧсуа",
+    rtl: false,
+    countries: [],
+  },
+  ...
+]
+```
+
+```js
+const allLanguages = getAllLanguages(["name", "native"]);
+
+// console.log(allLanguages)
+[
+  {
+    code: "aa",
+    name: "Afar",
+    native: "Afar",
+  },
+  {
+    code: "ab",
+    name: "Abkhazian",
+    native: "Аҧсуа",
+  },
+  ...
+]
+```
+
+## `getLanguages([languageCodes], [keys])`
+
+### Parameters
+
+| Name          | Required   | Type  | TS              |
+| ------------- | ---------- | ----- | --------------- |
+| languageCodes | `Required` | Array | TLanguageCode[] |
+| keys          | `Optional` | Array | TLanguageKeys[] |
+
+### Return
+
+| Name      | Type  | TS          |
+| --------- | ----- | ----------- |
+| Languages | Array | ILanguage[] |
+
+### Examples
+
+```js
+const selectedLanguages = getLanguages(["es", "th"]);
+
+// console.log(selectedLanguages);
+[
+  {
+    code: "es",
+    name: "Spanish",
+    native: "Español",
+    rtl: false,
+    countries: ["AR", "BO", "BZ", "CL", "CO", "CR", "CU", "DO", "EC", "EH", "ES", "GQ", "GT", "GU", "HN", "MX", "NI", "PA", "PE", "PR", "PY", "SV", "UY", "VE"],
+  },
+  {
+    code: "th",
+    name: "Thai",
+    native: "ไทย / Phasa Thai",
+    rtl: false,
+    countries: ["TH"],
+  },
+];
+```
+
+```js
+const selectedLanguages = getLanguages(["es", "th"], ["name", "native"]);
+
+// console.log(selectedLanguages);
+[
+  {
+    code: "es",
+    name: "Spanish",
+    native: "Español",
+  },
+  {
+    code: "th",
+    name: "Thai",
+    native: "ไทย / Phasa Thai",
+  },
+];
+```
+
+## `getLanguagesByCountry(countryCode, [keys])`
+
+### Parameters
+
+| Name        | Required   | Type   | TS              |
+| ----------- | ---------- | ------ | --------------- |
+| countryCode | `Required` | String | TCountryCode    |
+| keys        | `Optional` | Array  | TLanguageKeys[] |
+
+### Return
+
+| Name      | Type  | TS          |
+| --------- | ----- | ----------- |
+| Languages | Array | ILanguage[] |
+
+### Examples
+
+```js
+const languagesInSE = getLanguagesByCountry("SE");
+
+// console.log(languagesInSE);
+[
+  {
+    code: "sv",
+    name: "Swedish",
+    native: "Svenska",
+    rtl: false,
+    countries: ["AX", "FI", "SE"],
+  },
+];
+```
+
+```js
+const languagesInSE = getLanguagesByCountry("SE", ["name", "native"]);
+
+// console.log(languagesInSE);
+[
+  {
+    code: "sv",
+    name: "Swedish",
+    native: "Svenska",
+  },
+];
+```
+
+## `getLanguage(languageCode, [keys])`
+
+### Parameters
+
+| Name         | Required   | Type   | TS              |
+| ------------ | ---------- | ------ | --------------- |
+| languageCode | `Required` | String | TLanguageCode   |
+| keys         | `Optional` | Array  | TLanguageKeys[] |
+
+### Return
+
+| Name     | Type   | TS        |
+| -------- | ------ | --------- |
+| Language | Object | ILanguage |
+
+### Examples
+
+```js
+const languageRO = getLanguage("ro");
+
+// console.log(languageRO);
+{
+  code: "ro",
+  name: "Romanian",
+  native: "Română",
+  rtl: false,
+  countries: ["MD", "RO"],
+}
+```
+
+```js
+const languageRO = getLanguage("ro", ["name", "native"]);
+
+// console.log(languageRO);
+{
+  code: "ro",
+  name: "Romanian",
+  native: "Română",
+}
+```
+
+## `getAllLanguageTags([keys])`
+
+### Parameters
+
+| Name | Required   | Type  | TS                 |
+| ---- | ---------- | ----- | ------------------ |
+| keys | `Optional` | Array | TLanguageTagKeys[] |
+
+### Return
+
+| Name         | Type  | TS             |
+| ------------ | ----- | -------------- |
+| LanguageTags | Array | ILanguageTag[] |
+
+### Examples
+
+```js
+const allLanguageTags = getAllLanguageTags();
+
+// console.log(allLanguageTags);
+[
+  {
+    code: "af_NA",
+    name: "Afrikaans",
+    native: "Afrikaans",
+    language: "af",
+    country: "NA",
+    rtl: false,
+  },
+  {
+    code: "af_ZA",
+    name: "Afrikaans",
+    native: "Afrikaans",
+    language: "af",
+    country: "ZA",
+    rtl: false,
+  },
+  ...
+]
+```
+
+```js
+const allLanguageTags = getAllLanguageTags(["name", "native"]);
+
+// console.log(allLanguageTags)
+[
+  {
+    code: "af_NA",
+    name: "Afrikaans",
+    native: "Afrikaans",
+  },
+  {
+    code: "af_ZA",
+    name: "Afrikaans",
+    native: "Afrikaans",
+  },
+  ...
+]
+```
+
+## `getLanguageTags([languageTagCodes], [keys])`
+
+### Parameters
+
+| Name             | Required   | Type  | TS                 |
+| ---------------- | ---------- | ----- | ------------------ |
+| languageTagCodes | `Required` | Array | TLanguageTagCode[] |
+| keys             | `Optional` | Array | TLanguageTagKeys[] |
+
+### Return
+
+| Name         | Type  | TS             |
+| ------------ | ----- | -------------- |
+| LanguageTags | Array | ILanguageTag[] |
+
+### Examples
+
+```js
+const selectedLanguageTags = getLanguageTags(["en_US", "zh_TW"]);
+
+// console.log(selectedLanguageTags);
+[
+  {
+    code: "en_US",
+    name: "English (US)",
+    native: "English (US)",
+    language: "en",
+    country: "US",
+    rtl: false,
+  },
+  {
+    code: "zh_TW",
+    name: "Traditional Chinese (Taiwan)",
+    native: "中文(台灣)",
+    language: "zh",
+    country: "TW",
+    rtl: false,
+  },
+];
+```
+
+```js
+const selectedLanguageTags = getLanguageTags(["en_US", "zh_TW"], ["name", "native"]);
+
+// console.log(selectedLanguageTags);
+[
+  {
+    code: "en_US",
+    name: "English (US)",
+    native: "English (US)",
+  },
+  {
+    code: "zh_TW",
+    name: "Traditional Chinese (Taiwan)",
+    native: "中文(台灣)",
+  },
+];
+```
+
+## `getLanguageTagsByLanguage(languageCode, [keys])`
+
+### Parameters
+
+| Name         | Required   | Type   | TS                 |
+| ------------ | ---------- | ------ | ------------------ |
+| languageCode | `Required` | String | TLanguageCode      |
+| keys         | `Optional` | Array  | TLanguageTagKeys[] |
+
+### Return
+
+| Name         | Type  | TS             |
+| ------------ | ----- | -------------- |
+| LanguageTags | Array | ILanguageTag[] |
+
+### Examples
+
+```js
+const languageTagsInES = getLanguageTagsByLanguage("es");
+
+// console.log(languageTagsInES);
+[
+  {
+    code: "es_AR",
+    name: "Spanish",
+    native: "Español",
+    language: "es",
+    country: "AR",
+    rtl: false,
+  },
+  {
+    code: "es_BO",
+    name: "Spanish",
+    native: "Español",
+    language: "es",
+    country: "BO",
+    rtl: false,
+  },
+  ...
+];
+```
+
+```js
+const languageTagsInES = getLanguageTagsByLanguage("es", ["name", "native"]);
+
+// console.log(languageTagsInES);
+[
+  {
+    code: "es_AR",
+    name: "Spanish",
+    native: "Español",
+  },
+  {
+    code: "es_BO",
+    name: "Spanish",
+    native: "Español",
+  },
+  ...
+];
+```
+
+## `getLanguageTagsByCountry(countryCode, [keys])`
+
+### Parameters
+
+| Name        | Required   | Type   | TS                 |
+| ----------- | ---------- | ------ | ------------------ |
+| countryCode | `Required` | String | TCountryCode       |
+| keys        | `Optional` | Array  | TLanguageTagKeys[] |
+
+### Return
+
+| Name         | Type  | TS             |
+| ------------ | ----- | -------------- |
+| LanguageTags | Array | ILanguageTag[] |
+
+### Examples
+
+```js
+const languageTagsInUS = getLanguageTagsByCountry("US");
+
+// console.log(languageTagsInUS);
+[
+  {
+    code: "en_US",
+    name: "English (US)",
+    native: "English (US)",
+    language: "en",
+    country: "US",
+    rtl: false,
+  },
+];
+```
+
+```js
+const languageTagsInUS = getLanguageTagsByCountry("SE", ["name", "native"]);
+
+// console.log(languageTagsInUS);
+[
+  {
+    code: "en_US",
+    name: "English (US)",
+    native: "English (US)",
+  },
+];
+```
+
+## `getLanguageTag(languageTagCode, [keys])`
+
+### Parameters
+
+| Name            | Required   | Type   | TS               |
+| --------------- | ---------- | ------ | ---------------- |
+| languageTagCode | `Required` | String | TLanguageTagCode |
+| keys            | `Optional` | Array  | TLanguageKeys[]  |
+
+### Return
+
+| Name        | Type   | TS           |
+| ----------- | ------ | ------------ |
+| LanguageTag | Object | ILanguageTag |
+
+### Examples
+
+```js
+const languageTagth_TH = getLanguage("th_TH");
+
+// console.log(languageTagth_TH);
+{
+  code: "th_TH",
+  name: "Thai",
+  native: "ไทย / Phasa Thai",
+  language: "th",
+  country: "TH",
+  rtl: false,
+}
+```
+
+```js
+const languageTagth_TH = getLanguage("th_TH", ["name", "native"]);
+
+// console.log(languageTagth_TH);
+{
+  code: "th_TH",
+  name: "Thai",
+  native: "ไทย / Phasa Thai",
+}
+```
+
+## `formatLanguageTagCode(languageTagCode)`
+
+### Parameters
+
+| Name            | Required   | Type   | Length  |
+| --------------- | ---------- | ------ | ------- |
+| languageTagCode | `Required` | String | 5 chars |
+
+### Return
+
+| Name            | Type   | TS               |
+| --------------- | ------ | ---------------- |
+| languageTagCode | String | TLanguageTagCode |
+
+### Examples
+
+```js
+const formattedLanguageTagCode = formatLanguageTagCode("TH-tH");
+
+// console.log(formattedLanguageTagCode);
+th_TH;
+```
+
+# Contact
+
+Feel free to contact me for any questions or issues.
 
 # Licensing
 

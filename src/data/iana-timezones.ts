@@ -1,4 +1,4 @@
-import { ITimezone, TTimezones } from "../types";
+import { TTimezones } from "../types";
 
 export default {
   "Africa/Abidjan": {

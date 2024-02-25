@@ -1,4 +1,4 @@
-import { ILanguage, TLanguages } from "../types";
+import { TLanguages } from "../types";
 
 export default {
   aa: {

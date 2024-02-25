@@ -1,4 +1,4 @@
-import { ICurrency, TCurrencies } from "../types";
+import { TCurrencies } from "../types";
 
 export default {
   AED: {

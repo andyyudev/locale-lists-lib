@@ -1,4 +1,4 @@
-import { ICountry, TCountries } from "../types";
+import { TCountries } from "../types";
 
 export default {
   AD: {

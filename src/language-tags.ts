@@ -26,8 +26,6 @@ export const getLanguageTagsByCountry = (countryCode: TCountryCode, keys?: TLang
 };
 
 export const getLanguageTag = (languageTagCode: TLanguageTagCode, keys?: TLanguageTagKeys[]): Partial<ILanguageTag> => {
-  // Parse the language tag
-
   const languageTag: ILanguageTag = languageTags[languageTagCode];
   let result: { [key: string]: any } = { code: languageTagCode }; // Initialize result with 'code' first
 
@@ -42,4 +40,17 @@ export const getLanguageTag = (languageTagCode: TLanguageTagCode, keys?: TLangua
   }
 
   return result;
+};
+
+export const formatLanguageTagCode = (input: string) => {
+  // Remove any characters that are not letters or underscores
+  let cleanInput = input.replace(/[^a-zA-Z_]/g, "");
+
+  if (!/^[a-zA-Z]{2}_[a-zA-Z]{2}$/.test(cleanInput)) {
+    console.error("Input does not match the expected format (xx_XX).");
+    return null;
+  }
+
+  // Convert the first two characters to lowercase and the last two to uppercase
+  return cleanInput.toLowerCase().substring(0, 2) + "_" + cleanInput.toUpperCase().substring(3, 5);
 };

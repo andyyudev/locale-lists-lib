@@ -1,4 +1,4 @@
-import { continentList, countryList, currencyList, languageList, languageTagList, timezoneList } from "../../dist/index.mjs";
+import { continentList, countryList, currencyList, languageList, languageTagList, languageTagListUnique, timezoneList } from "../../dist/index.mjs";
 
 // Generate a string of all the keys for type unions
 const generateKeyValues = (data) => {
@@ -7,4 +7,4 @@ const generateKeyValues = (data) => {
   return `"${keyValues}"`;
 };
 
-console.log(generateKeyValues(continentList));
+console.log(generateKeyValues(languageTagList));

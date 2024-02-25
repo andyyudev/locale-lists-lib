@@ -1,4 +1,4 @@
-import { IContinent, TContinents } from "../types";
+import { TContinents } from "../types";
 
 export default {
   AF: {
