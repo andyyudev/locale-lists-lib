@@ -14,9 +14,9 @@
     "continents",
     "countries",
     "currencies",
+    "timezones",
     "languages",
-    "language tags",
-    "timezones"
+    "language tags"
   ],
   "author": {
     "name": "Andy Yu",
