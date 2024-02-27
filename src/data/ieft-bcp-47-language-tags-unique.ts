@@ -2,7 +2,6 @@ import { TLanguageTags } from "../types";
 
 export default {
   en_GB: {
-    code: "en_GB",
     name: "English (UK)",
     native: "English (UK)",
     language: "en",
@@ -10,7 +9,6 @@ export default {
     rtl: false,
   },
   en_US: {
-    code: "en_US",
     name: "English (US)",
     native: "English (US)",
     language: "en",
@@ -18,7 +16,6 @@ export default {
     rtl: false,
   },
   fr_CA: {
-    code: "fr_CA",
     name: "French (Canada)",
     native: "Français (Canada)",
     language: "fr",
@@ -26,7 +23,6 @@ export default {
     rtl: false,
   },
   fr_FR: {
-    code: "fr_FR",
     name: "French (France)",
     native: "Français (France)",
     language: "fr",
@@ -34,7 +30,6 @@ export default {
     rtl: false,
   },
   pt_BR: {
-    code: "pt_BR",
     name: "Portuguese (Brasil)",
     native: "Português (Brasil)",
     language: "pt",
@@ -42,7 +37,6 @@ export default {
     rtl: false,
   },
   pt_PT: {
-    code: "pt_PT",
     name: "Portuguese (Portugal)",
     native: "Português (Portugal)",
     language: "pt",
@@ -50,7 +44,6 @@ export default {
     rtl: false,
   },
   zh_CN: {
-    code: "zh_CN",
     name: "Simplified Chinese (China)",
     native: "中文(简体)",
     language: "zh",
@@ -58,7 +51,6 @@ export default {
     rtl: false,
   },
   zh_HK: {
-    code: "zh_HK",
     name: "Traditional Chinese (Hong Kong)",
     native: "中文(香港)",
     language: "zh",
@@ -66,7 +58,6 @@ export default {
     rtl: false,
   },
   zh_TW: {
-    code: "zh_TW",
     name: "Traditional Chinese (Taiwan)",
     native: "中文(台灣)",
     language: "zh",
