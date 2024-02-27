@@ -1,6 +1,6 @@
 {
   "name": "locale-lists-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lists & utility functions for Continents, Countries, Currencies, Timezones, Languages, and Language Tags.",
   "keywords": [
     "ISO 3166-1",
